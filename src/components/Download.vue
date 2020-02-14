@@ -1,5 +1,4 @@
 <template>
-  <!--Start of Market-->
   <section id="blog">
     <div class="container">
       <div class="row">
@@ -24,8 +23,8 @@
                       <div class="expert">
                         <div class="left-side text-center">
                           <p class="left_side">
-                            <span class="clock"><img style="width:30px;height:30px;" src="../../static/img/android.png" /></span>
-                            <span class="time">安卓端</span>
+                            <span><img style="width:30px;height:30px;" src="../../static/img/android.png" /></span>
+                            <span>安卓端</span>
                           </p>
                         </div>
                       </div>
@@ -43,8 +42,8 @@
                       <div class="expert">
                         <div class="left-side text-center">
                           <p class="left_side">
-                            <span class="clock"><img style="width:30px;height:30px;" src="../../static/img/android.png" /></span>
-                            <span class="time">IOS端</span>
+                            <span><img style="width:30px;height:30px;" src="../../static/img/android.png" /></span>
+                            <span>IOS端</span>
                           </p>
                         </div>
                       </div>
@@ -62,8 +61,8 @@
                       <div class="expert">
                         <div class="left-side text-center">
                           <p class="left_side">
-                            <span class="clock"><img style="width:30px;height:30px;" src="../../static/img/android.png" /></span>
-                            <span class="time">物流助手小程序</span>
+                            <span><img style="width:30px;height:30px;" src="../../static/img/android.png" /></span>
+                            <span>物流助手小程序</span>
                           </p>
                         </div>
                       </div>
@@ -72,37 +71,63 @@
                 </div>
               </div>
             </div>
-            <!--End of row-->
           </div>
-          <!--End of market Area-->
         </div>
-        <!--End of col-md-12-->
       </div>
-      <!--End of row-->
       <div class="row">
-        <div class="text-center" style="max-width:45%;margin: 40px auto;padding: 20px;border: 1px solid rgba(245, 154, 35, 1);color:rgba(245, 154, 35, 1);">已投放主流安卓市场、苹果应用商店，通过认证，安全可靠、数据保障</div>
+        <div class="text-center BorderBlock">已投放主流安卓市场、苹果应用商店，通过认证，安全可靠、数据保障</div>
       </div>
     </div>
-    <!--End of container-->
   </section>
-  <!--End of market-->
 </template>
 
 <script>
 export default {
   name: 'Download',
   data () {
-    return {
-      msg: 'Welcome to Your Vue.js App'
-    }
+    return {}
   }
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .blog_img img{
   width: 150px !important;
   height: auto !important;
+}
+.BorderBlock{
+  width:45%;
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid rgba(245, 154, 35, 1);
+  color:rgba(245, 154, 35, 1);
+}
+@media (max-width: 640px){
+  .BorderBlock{
+    width: 60%;
+  }
+  .blog_img img{
+    width: 120px !important;
+    height: auto !important;
+  }
+}
+@media (max-width: 480px){
+  .BorderBlock{
+    width: 70%;
+  }
+  .blog_img img{
+    width: 110px !important;
+    height: auto !important;
+  }
+
+}
+@media (max-width: 320px){
+  .BorderBlock{
+    width: 80%;
+  }
+  .blog_img img{
+    width: 100px !important;
+    height: auto !important;
+  }
 }
 </style>

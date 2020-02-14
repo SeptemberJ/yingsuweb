@@ -1,5 +1,5 @@
 <template>
-  <section id="blog">
+  <section id="blog" style="padding-top: 0;">
     <div class="container">
         <div class="row">
           <div class="col-md-12">
@@ -111,27 +111,26 @@ export default {
   margin: 5px;
 }
 .item .item-container:before{
-width: 35px;
-content: "";
-position: absolute;
-z-index: -1;
-top: 0;
-left: 15px;
-right: 30px;
-bottom: 0;
-background: rgba(32, 152, 209, 1);
--webkit-transform: scaleY(0);
-transform: scaleY(0);
--webkit-transform-origin: 100% 0%;
-transform-origin: 100% 0%;
--webkit-transition-property: transform;
-transition-property: transform;
--webkit-transition-duration: 0.3s;
-transition-duration: 0.3s;
--webkit-transition-timing-function: ease-out;
-transition-timing-function: ease-out;
+  width: 35px;
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 15px;
+  right: 30px;
+  bottom: 0;
+  background: rgba(32, 152, 209, 1);
+  -webkit-transform: scaleY(0);
+  transform: scaleY(0);
+  -webkit-transform-origin: 100% 0%;
+  transform-origin: 100% 0%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
 }
-/* .outWrap:hover .item{box-shadow: 2px 2px 5px 0px rgba(0,0,0,1);} */
 .outWrap:hover .item-container:before {
   -webkit-transform: scaleY(1);
   transform: scaleY(1);
@@ -155,5 +154,11 @@ transition-timing-function: ease-out;
 .RightCont p{
   width: 70%;
   padding: 20px 40px 20px 20px;
+}
+@media (max-width: 768px){
+  .RightCont p{
+    width: 90%;
+    padding: 20px;
+  }
 }
 </style>

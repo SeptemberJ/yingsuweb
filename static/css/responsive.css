@@ -28,8 +28,8 @@
         font-size: 35px;
     }
     #event .event_item {
-        width: 50%;
-        float: left;
+        /* width: 50%; */
+        /* float: left; */
     }
     #event .event_news {
         padding-top: 30px;
@@ -37,7 +37,7 @@
     }
     .testimonial_content {
         padding: 20px 20px;
-        height: 140px;
+        /* height: 140px; */
     }
     .testimonial_content i {
         top: 55px;
@@ -210,7 +210,7 @@
     }
     #welcome {
         padding-bottom: 20px;
-        min-height: 245px;
+        /* min-height: 245px; */
     }
     #welcome .wel_header {
         padding-top: 20px;
@@ -365,8 +365,8 @@
         font-size: 11px;
     }
     #testimonial #fade-quote-carousel .profile-circle {
-        width: 50px;
-        height: 75px;
+        /* width: 50px;
+        height: 75px; */
     }
     #testimonial .testimonial_content p {
         font-size: 11px;
@@ -733,6 +733,7 @@
     }
     #event .event_text p {
         font-size: 10px;
+        padding-bottom: 25px;
     }
     #event a.event_btn {
         font-size: 10px;
@@ -762,11 +763,11 @@
         font-size: 11px;
     }
     #testimonial #fade-quote-carousel .profile-circle {
-        width: 50px;
-        height: 75px;
+        /* width: 50px;
+        height: 75px; */
     }
     .testimonial_content {
-        height: 150px;
+        /* height: 150px; */
         width: 100%;
         margin: 0 auto;
     }
@@ -774,10 +775,10 @@
         height: 70px;
     }
     .profile-circle {
-        top: 60px;
+        /* top: 60px; */
     }
     .testimonial_author {
-        padding: 25px 0;
+        /* padding: 25px 0; */
     }
     #testimonial .testimonial_content p {
         font-size: 11px;
@@ -933,10 +934,6 @@
     }
 }
 @media all and (max-width: 480px) {
-
-
-
-
     #header .header_menu .custom_navbar-brand {
         padding-top: 8px;
     }
@@ -1103,6 +1100,9 @@
         padding-bottom: 20px;
         padding-top: 15px;
     }
+    #event .event_item {
+        width: 100%;
+    }
     .wel_header h2 {
         font-size: 25px;
         padding-bottom: 15px;
@@ -1159,8 +1159,8 @@
         font-size: 11px;
     }
     #testimonial #fade-quote-carousel .profile-circle {
-        width: 50px;
-        height: 75px;
+        /* width: 50px;
+        height: 75px; */
     }
     #testimonial .testimonial_content p {
         font-size: 11px;
@@ -1549,8 +1549,8 @@
         font-size: 11px;
     }
     #testimonial #fade-quote-carousel .profile-circle {
-        width: 50px;
-        height: 75px;
+        /* width: 50px;
+        height: 75px; */
     }
     #testimonial .testimonial_content p {
         font-size: 11px;

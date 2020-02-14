@@ -60,6 +60,9 @@ font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
 }
+body{
+  min-width: 320px;
+}
 .alignleft {
     float: left;
     margin-right: 15px
@@ -126,7 +129,20 @@ html {
 }
 body {
 }
-
+.OptionBlock .el-checkbox__label{
+  font-size: 12px !important;
+  padding-left: 5px !important;
+}
+.LoginBox .el-dialog__body{
+  padding: 10px 15px !important;
+}
+.SignBox .el-dialog__body{
+  padding: 10px 15px !important;
+}
+.Agreement .el-checkbox__label{
+  font-size: 12px !important;
+  padding-left: 5px !important;
+}
 /*Remove chrome Input Field’s Unwanted Yellow Background Color*/
 
 input: -webkit-autofill,
@@ -241,17 +257,22 @@ input: -webkit-autofill:focus {
     padding-top: 20px;
 }
 #header .header_menu ul.main_menu li a {
+    display: inline-block;
     color: #393939;
     font-size: 14px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-weight: 600;
     font-family: 'Roboto Slab', serif;
 }
+.navbar-nav>li>a {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
 #header .header_menu ul.main_menu li a:hover {
-    color: #4DA91C;
+    color: #41A4F3;
 }
 #header .header_menu ul.main_menu li.active a {
-    color: #4DA91C;
+    color: #41A4F3;
 }
 #header .header_menu ul.main_menu li,
 #header .header_menu ul.main_menu li.active a {
@@ -271,7 +292,7 @@ input: -webkit-autofill:focus {
 #header .header_menu ul.main_menu li:hover:after,
 #header .header_menu ul.main_menu li.active:after {
     width: 90%;
-    background: #4DA91C;
+    /* background: #41A4F3; */
 }
 
 /*Slider*/
@@ -681,8 +702,10 @@ section#counter {
 }
 #event .event_text p {
     font-size: 14px;
-    color: #646464;
+    color: #fff;
+    /* color: #646464; */
     padding-bottom: 35px;
+    text-align: left;
     font-family: 'Open Sans', sans-serif;
 }
 #event a.event_btn {
@@ -940,7 +963,7 @@ li.fw-flash-message {
     outline: 0 !important;
 }
 .office {
-    padding-top: 50px
+    /* padding-top: 50px */
 }
 .office .title h5 {
     font-size: 22px;

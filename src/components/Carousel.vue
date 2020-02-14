@@ -17,9 +17,9 @@
               <img src="../../static/img/img1.jpg" alt="...">
               <div class="carousel-caption">
                 <div class="slider_text">
-                  <h2>nature the environment</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                  <a href="" class="custom_btn">Read  More</a>
+                  <h2>Title</h2>
+                  <p>Nesws</p>
+                  <a href="" class="custom_btn">查看更多</a>
                 </div>
               </div>
             </div>
@@ -30,9 +30,9 @@
               <img src="../../static/img/img2.jpg" alt="...">
               <div class="carousel-caption">
                 <div class="slider_text">
-                  <h2>nature the environment</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                  <a href="" class="custom_btn">Read  More</a>
+                  <h2>Title</h2>
+                  <p>Nesws</p>
+                  <a href="" class="custom_btn">查看更多</a>
                 </div>
               </div>
             </div>
@@ -43,9 +43,9 @@
               <img src="../../static/img/img3.jpg" alt="...">
               <div class="carousel-caption">
                 <div class="slider_text">
-                  <h2>nature the environment</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                  <a href="" class="custom_btn">Read  More</a>
+                  <h2>Title</h2>
+                  <p>Nesws</p>
+                  <a href="" class="custom_btn">查看更多</a>
                 </div>
               </div>
             </div>

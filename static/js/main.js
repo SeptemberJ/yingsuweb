@@ -1,35 +1,20 @@
 (function ($) {
-    "use strict";
-
-
-    jQuery(document).ready(function ($) {
-
-
-        /*---------------------------------------------*
-        * Carousel
-        ---------------------------------------------*/
-        $('#Carousel').carousel({
-                interval: 5000,
-                item: 2
-            })
-            /*------------------------*/
-
-    });
-
+  "use strict";
+  jQuery(document).ready(function ($) {
     /*---------------------------------------------*
-        * STICKY scroll
+    * Carousel
     ---------------------------------------------*/
-
-    $.localScroll();
-
-    /**************************/
-
-
-    jQuery(window).load(function () {
-
-
-    });
-
-
-
+    $('#Carousel').carousel({
+      interval: 5000,
+      item: 2
+    })
+    /*------------------------*/
+  });
+  /*---------------------------------------------*
+      * STICKY scroll
+  ---------------------------------------------*/
+  $.localScroll();
+  /**************************/
+  jQuery(window).load(function () {
+  });
 }(jQuery));
