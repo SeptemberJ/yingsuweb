@@ -16,11 +16,7 @@
             <div class="slider_overlay">
               <img src="../../static/img/img1.jpg" alt="...">
               <div class="carousel-caption">
-                <div class="slider_text">
-                  <h2>Title</h2>
-                  <p>Nesws</p>
-                  <a href="" class="custom_btn">查看更多</a>
-                </div>
+                <p><span style="float:left;"><i class="fa fa-volume-up"></i>[2020-01-20 ]关于2020年春节假期平台放假通知</span><span style="float:right;">查看更多</span></p>
               </div>
             </div>
           </div>
@@ -29,10 +25,8 @@
             <div class="slider_overlay">
               <img src="../../static/img/img2.jpg" alt="...">
               <div class="carousel-caption">
-                <div class="slider_text">
-                  <h2>Title</h2>
-                  <p>Nesws</p>
-                  <a href="" class="custom_btn">查看更多</a>
+                <div class="carousel-caption">
+                  <p><span style="float:left;"><i class="fa fa-volume-up"></i>[2020-01-20 ]关于2020年春节假期平台放假通知</span><span style="float:right;">查看更多</span></p>
                 </div>
               </div>
             </div>
@@ -42,11 +36,7 @@
             <div class="slider_overlay">
               <img src="../../static/img/img3.jpg" alt="...">
               <div class="carousel-caption">
-                <div class="slider_text">
-                  <h2>Title</h2>
-                  <p>Nesws</p>
-                  <a href="" class="custom_btn">查看更多</a>
-                </div>
+                <p><span style="float:left;"><i class="fa fa-volume-up"></i>[2020-01-20 ]关于2020年春节假期平台放假通知</span><span style="float:right;">查看更多</span></p>
               </div>
             </div>
           </div>

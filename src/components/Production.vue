@@ -1,4 +1,5 @@
 <template>
+<div id="production">
   <section id="blog"  style="padding-bottom: 0;">
     <div class="container" style="width: 95%;">
       <div class="row">
@@ -73,6 +74,7 @@
       </div>
     </div>
   </section>
+</div>
 </template>
 <script src="../../static/js/jquery-1.12.3.min.js"></script>
 <script>

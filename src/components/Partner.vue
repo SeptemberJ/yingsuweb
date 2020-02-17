@@ -1,5 +1,5 @@
 <template>
-<div>
+<div id="partner">
   <section id="testimonial">
     <div class="testimonial_overlay">
       <div class="container" style="width:100%;">
@@ -136,22 +136,22 @@
   <!-- companyLogo -->
   <div class="container market_area text-center" style="margin-top:20px;">
     <div class="row">
-      <div class="col-md-3 col-sm-3 col-xs-12 bounceIn" data-wow-duration="1s" data-wow-delay="1s">
+      <div class="col-md-3 col-sm-3 col-xs-12 wow bounceIn" data-wow-duration="1s" data-wow-delay="1s">
         <div class="market_logo">
           <a href=""><img src="../../static/img/audiojungle.png" alt=""></a>
         </div>
       </div>
-      <div class="col-md-3 col-sm-3 col-xs-12 bounceIn" data-wow-duration="1s" data-wow-delay="1.5s">
+      <div class="col-md-3 col-sm-3 col-xs-12 wow bounceIn" data-wow-duration="1s" data-wow-delay="1.5s">
         <div class="market_logo">
           <a href=""><img src="../../static/img/codecanyon.png" alt=""></a>
         </div>
       </div>
-      <div class="col-md-3 col-sm-3 col-xs-12 bounceIn" data-wow-duration="1s" data-wow-delay="2s">
+      <div class="col-md-3 col-sm-3 col-xs-12 wow bounceIn" data-wow-duration="1s" data-wow-delay="2s">
         <div class="market_logo">
           <a href=""><img src="../../static/img/graphicriver.png" alt=""></a>
         </div>
       </div>
-      <div class="col-md-3 col-sm-3 col-xs-12 bounceIn" data-wow-duration="1s" data-wow-delay="2.5s">
+      <div class="col-md-3 col-sm-3 col-xs-12 wow bounceIn" data-wow-duration="1s" data-wow-delay="2.5s">
         <div class="market_logo">
           <a href=""><img src="../../static/img/audiojungle.png" alt=""></a>
         </div>

@@ -168,7 +168,7 @@
         min-height: 95px;
     }
     #slider .carousel-indicators {
-        bottom: 90px;
+        /* bottom: 90px; */
     }
     #slider .carousel-indicators li {
         width: 10px;
@@ -180,7 +180,7 @@
         margin: 1px;
     }
     #slider .carousel-caption {
-        bottom: 50px;
+        /* bottom: 50px; */
     }
     #slider .slider_text a.custom_btn {
         font-size: 12px;
@@ -571,7 +571,7 @@
         min-height: 95px;
     }
     #slider .carousel-indicators {
-        bottom: 50px;
+        /* bottom: 50px; */
     }
     #slider .carousel-indicators li {
         width: 10px;

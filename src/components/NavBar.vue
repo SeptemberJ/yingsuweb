@@ -15,11 +15,17 @@
             </div>
             <div class="collapse navbar-collapse zero_mp" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav navbar-right main_menu">
-                <li class="active"><a href="#header">栏目名称 <span class="sr-only">(current)</span></a></li>
-                <li><a href="#">栏目名称</a></li>
-                <li><a href="#">栏目名称</a></li>
-                <li><a href="#">栏目名称</a></li>
-                <li><a href="#">关于我们</a></li>
+                <li class="active"><a href="#slider">首页<span class="sr-only">(current)</span></a></li>
+                <li><a href="#production">中运卡行产品</a></li>
+                <li><a href="#strength">我们的优势</a></li>
+                <li><a href="#partner">战略合作客户</a></li>
+                <li><a href="#download">移动端下载</a></li>
+                <li><a href="#aboutUs">关于我们</a></li>
+                <!-- <li :class="{active: menuIdx == 0}" @click="changeMenu(0)"><a href="#production">中运卡行产品<span class="sr-only">(current)</span></a></li>
+                <li :class="{active: menuIdx == 1}" @click="changeMenu(1)"><a href="#strength">我们的优势</a></li>
+                <li :class="{active: menuIdx == 2}" @click="changeMenu(2)"><a href="#partner">战略合作客户</a></li>
+                <li :class="{active: menuIdx == 3}" @click="changeMenu(3)"><a href="#download">移动端下载</a></li>
+                <li :class="{active: menuIdx == 4}" @click="changeMenu(4)"><a href="#aboutUs">关于我们</a></li> -->
                 <li class="SplitLine" @click="showLoginBox"><a href="#">登陆</a></li>
                 <li @click="showSignBox"><a href="#">注册</a></li>
                 <li class="dropdown">
@@ -98,6 +104,7 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
+      menuIdx: 0,
       dialogLoginVisible: false,
       dialogSignVisible: false,
       account: '',
@@ -107,6 +114,9 @@ export default {
     }
   },
   methods: {
+    changeMenu (idx) {
+      this.menuIdx = idx
+    },
     showLoginBox () {
       this.dialogLoginVisible = true
     },

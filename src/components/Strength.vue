@@ -1,5 +1,6 @@
 <template>
-  <section id="blog" style="padding-top: 0;">
+<div id="strength">
+  <section id="blog">
     <div class="container">
         <div class="row">
           <div class="col-md-12">
@@ -14,72 +15,73 @@
         <div class="outWrap col-md-4 col-sm-6 col-xs-12">
           <div class="item t-center">
             <div class="item-container">
-              <img src="../../static/img/icon.png" />
+              <img src="../../static/img/icons/zz.png" />
             </div>
           </div>
           <div class="RightCont">
-            <h4>资质认证</h4>
-            <p class="blog_news_content">内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字</p>
+            <h4>OCR 自动识别，保障真实性</h4>
+            <p class="blog_news_content">货主身份证识别，车主身份证、行驶证、道路运输许可证、从业资格证的OCR验证识别</p>
           </div>
         </div>
         <div class="outWrap col-md-4 col-sm-6 col-xs-12">
           <div class="item t-center">
             <div class="item-container">
-              <img src="../../static/img/icon.png" />
+              <img src="../../static/img/icons/qy.png" />
             </div>
           </div>
           <div class="RightCont">
-            <h4>在线签约</h4>
-            <p class="blog_news_content">内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字</p>
+            <h4>在线支付，权威第三方支付平台为资金保驾护航</h4>
+            <p class="blog_news_content">与支付宝、微信、通联等三方支付平台，为用户提供便捷支付功能，司机运费可快速到账，支持全国主流银行卡支付</p>
           </div>
         </div>
         <div class="outWrap col-md-4 col-sm-6 col-xs-12">
           <div class="item t-center">
             <div class="item-container">
-              <img src="../../static/img/icon.png" />
+              <img src="../../static/img/icons/qc.png" />
             </div>
           </div>
           <div class="RightCont">
-            <h4>全程可视</h4>
-            <p class="blog_news_content">内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字</p>
+            <h4>电子合同在线签署</h4>
+            <p class="blog_news_content">与权威第三方专业电子合同公司合作，提供车货交易双方的合同签署、合同存储与查询服务</p>
           </div>
         </div>
         <div class="outWrap col-md-4 col-sm-6 col-xs-12">
           <div class="item t-center">
             <div class="item-container">
-              <img src="../../static/img/icon.png" />
+              <img src="../../static/img/icons/fw.png" />
             </div>
           </div>
           <div class="RightCont">
-            <h4>服务保障</h4>
-            <p class="blog_news_content">内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字</p>
+            <h4>移动端(货主、司机)一体化管理</h4>
+            <p class="blog_news_content">实时掌控货物运输过程，运输状态一目了然。司机端实现抢单、接单，不错失任何一个货源信息</p>
           </div>
         </div>
         <div class="outWrap col-md-4 col-sm-6 col-xs-12">
           <div class="item t-center">
             <div class="item-container">
-              <img src="../../static/img/icon.png" />
+              <img src="../../static/img/icons/fk.png" />
             </div>
           </div>
           <div class="RightCont">
-            <h4>风控体系</h4>
-            <p class="blog_news_content">内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字</p>
+            <h4>全程可视化监控，动态跟踪物流节点</h4>
+            <p class="blog_news_content">通过车载GPS或手机APP，实时掌握运单状态。提供车辆离线、异常停车、线路便偏移、晚到预警等各类预警服务。对车辆出发、到达自动出发运单状态，无需人工操作</p>
           </div>
         </div>
         <div class="outWrap col-md-4 col-sm-6 col-xs-12">
           <div class="item t-center">
             <div class="item-container">
-              <img src="../../static/img/icon.png" />
+              <img src="../../static/img/icons/sj.png" />
             </div>
           </div>
           <div class="RightCont">
-            <h4>数据安全</h4>
-            <p class="blog_news_content">内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字</p>
+            <h4>引入保险机制</h4>
+            <p class="blog_news_content">货主或车主可以按需求在线购买各种运输保险，为交易过程保驾护航</p>
           </div>
         </div>
       <div class="clear"></div>
     </div>
   </section>
+</div>
 </template>
 
 <script>
@@ -152,8 +154,8 @@ export default {
   padding: 10px 20px 0 20px;
 }
 .RightCont p{
-  width: 70%;
-  padding: 20px 40px 20px 20px;
+  width: 80%;
+  padding: 20px 20px 20px 20px;
 }
 @media (max-width: 768px){
   .RightCont p{
