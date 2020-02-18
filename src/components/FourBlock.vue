@@ -17,9 +17,10 @@
             <div class="single_item">
               <div class="item_list">
                 <div class="row">
-                  <div class="col-md-3 col-sm-3 col-xs-3">
+                  <div class="col-md-3 col-sm-3 col-xs-3" style="padding: 0;">
                     <div class="welcome_icon">
-                      <i class="fa fa-leaf"></i>
+                      <img style="width:90%;" src="../../static/img/android.png" />
+                      <!-- <i class="fa fa-leaf"></i> -->
                     </div>
                   </div>
                   <div class="col-md-9 col-sm-9 col-xs-9">
@@ -37,9 +38,9 @@
             <div class="single_item">
               <div class="item_list">
                 <div class="row">
-                  <div class="col-md-3 col-sm-3 col-xs-3">
+                  <div class="col-md-3 col-sm-3 col-xs-3"  style="padding: 0;">
                     <div class="welcome_icon">
-                      <i class="fa fa-leaf"></i>
+                      <img style="width:90%;" src="../../static/img/android.png" />
                     </div>
                   </div>
                   <div class="col-md-9 col-sm-9 col-xs-9">
@@ -57,9 +58,9 @@
             <div class="single_item">
               <div class="item_list">
                 <div class="row">
-                  <div class="col-md-3 col-sm-3 col-xs-3">
+                  <div class="col-md-3 col-sm-3 col-xs-3"  style="padding: 0;">
                     <div class="welcome_icon">
-                      <i class="fa fa-leaf"></i>
+                      <img style="width:90%;" src="../../static/img/android.png" />
                     </div>
                   </div>
                   <div class="col-md-9 col-sm-9 col-xs-9">
@@ -77,9 +78,9 @@
             <div class="single_item">
               <div class="item_list">
                 <div class="row">
-                  <div class="col-md-3 col-sm-3 col-xs-3">
+                  <div class="col-md-3 col-sm-3 col-xs-3"  style="padding: 0;">
                     <div class="welcome_icon">
-                      <i class="fa fa-leaf"></i>
+                      <img style="width:90%;" src="../../static/img/android.png" />
                     </div>
                   </div>
                   <div class="col-md-9 col-sm-9 col-xs-9">

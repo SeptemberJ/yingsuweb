@@ -14,7 +14,7 @@
         <div class="carousel-inner" role="listbox">
           <div class="item active">
             <div class="slider_overlay">
-              <img src="../../static/img/img1.jpg" alt="...">
+              <img src="../../static/img/banner.jpg" alt="...">
               <div class="carousel-caption">
                 <p><span style="float:left;"><i class="fa fa-volume-up"></i>[2020-01-20 ]关于2020年春节假期平台放假通知</span><span style="float:right;">查看更多</span></p>
               </div>
@@ -23,7 +23,7 @@
           <!--End of item With Active-->
           <div class="item">
             <div class="slider_overlay">
-              <img src="../../static/img/img2.jpg" alt="...">
+              <img src="../../static/img/banner.jpg" alt="...">
               <div class="carousel-caption">
                 <div class="carousel-caption">
                   <p><span style="float:left;"><i class="fa fa-volume-up"></i>[2020-01-20 ]关于2020年春节假期平台放假通知</span><span style="float:right;">查看更多</span></p>
@@ -34,7 +34,7 @@
           <!--End of Item-->
           <div class="item">
             <div class="slider_overlay">
-              <img src="../../static/img/img3.jpg" alt="...">
+              <img src="../../static/img/banner.jpg" alt="...">
               <div class="carousel-caption">
                 <p><span style="float:left;"><i class="fa fa-volume-up"></i>[2020-01-20 ]关于2020年春节假期平台放假通知</span><span style="float:right;">查看更多</span></p>
               </div>
@@ -49,6 +49,7 @@
   </div>
 </template>
 <script>
+import 'swiper/css/swiper.css'
 export default {
   name: 'Carousel',
   data () {

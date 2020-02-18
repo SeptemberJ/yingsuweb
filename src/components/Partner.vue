@@ -138,22 +138,22 @@
     <div class="row">
       <div class="col-md-3 col-sm-3 col-xs-12 wow bounceIn" data-wow-duration="1s" data-wow-delay="1s">
         <div class="market_logo">
-          <a href=""><img src="../../static/img/audiojungle.png" alt=""></a>
+          <a href=""><img src="../../static/img/audio1.png" alt=""></a>
         </div>
       </div>
       <div class="col-md-3 col-sm-3 col-xs-12 wow bounceIn" data-wow-duration="1s" data-wow-delay="1.5s">
         <div class="market_logo">
-          <a href=""><img src="../../static/img/codecanyon.png" alt=""></a>
+          <a href=""><img src="../../static/img/audio1.png" alt=""></a>
         </div>
       </div>
       <div class="col-md-3 col-sm-3 col-xs-12 wow bounceIn" data-wow-duration="1s" data-wow-delay="2s">
         <div class="market_logo">
-          <a href=""><img src="../../static/img/graphicriver.png" alt=""></a>
+          <a href=""><img src="../../static/img/audio1.png" alt=""></a>
         </div>
       </div>
       <div class="col-md-3 col-sm-3 col-xs-12 wow bounceIn" data-wow-duration="1s" data-wow-delay="2.5s">
         <div class="market_logo">
-          <a href=""><img src="../../static/img/audiojungle.png" alt=""></a>
+          <a href=""><img src="../../static/img/audio1.png" alt=""></a>
         </div>
       </div>
     </div>

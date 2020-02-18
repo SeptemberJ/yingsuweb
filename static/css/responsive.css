@@ -485,11 +485,11 @@
     #footer .designer p,
     #footer .designer a {
         font-size: 11px;
-        text-align: center;
+        text-align: left;
     }
     #footer .copyright,
     #footer .designer {
-        padding-top: 30px;
+        /* padding-top: 30px; */
     }
     #back-to-top {
         width: 25px;
@@ -894,11 +894,11 @@
     #footer .designer p,
     #footer .designer a {
         font-size: 11px;
-        text-align: center;
+        text-align: left;
     }
     #footer .copyright,
     #footer .designer {
-        padding-top: 18px;
+        /* padding-top: 18px; */
     }
     #back-to-top {
         width: 25px;
@@ -1273,11 +1273,11 @@
     #footer .designer p,
     #footer .designer a {
         font-size: 11px;
-        text-align: center;
+        text-align: left;
     }
     #footer .copyright,
     #footer .designer {
-        padding-top: 18px;
+        /* padding-top: 18px; */
     }
     #back-to-top {
         width: 25px;
@@ -1676,11 +1676,11 @@
     #footer .designer p,
     #footer .designer a {
         font-size: 11px;
-        text-align: center;
+        text-align: left;
     }
     #footer .copyright,
     #footer .designer {
-        padding-top: 18px;
+        /* padding-top: 18px; */
     }
     #back-to-top {
         width: 25px;

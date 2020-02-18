@@ -142,6 +142,9 @@ export default {
   border: 1px solid rgba(245, 154, 35, 1);
   color:rgba(245, 154, 35, 1);
 }
+.left_side span:last-of-type {
+  font-size: 12px;
+}
 @media (max-width: 640px){
   .BorderBlock{
     width: 60%;

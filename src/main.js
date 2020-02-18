@@ -10,6 +10,9 @@ import '../static/css/responsive.css'
 // css
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
+import vueSwiper from 'vue-awesome-swiper'
+
+Vue.use(vueSwiper)
 
 Vue.config.productionTip = false
 

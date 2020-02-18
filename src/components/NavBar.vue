@@ -15,7 +15,7 @@
             </div>
             <div class="collapse navbar-collapse zero_mp" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav navbar-right main_menu">
-                <li class="active"><a href="#slider">首页<span class="sr-only">(current)</span></a></li>
+                <li class="active"><a href="#header">首页<span class="sr-only">(current)</span></a></li>
                 <li><a href="#production">中运卡行产品</a></li>
                 <li><a href="#strength">我们的优势</a></li>
                 <li><a href="#partner">战略合作客户</a></li>

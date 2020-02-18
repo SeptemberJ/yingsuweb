@@ -1,6 +1,6 @@
 <template>
 <div id="production">
-  <section id="blog"  style="padding-bottom: 0;">
+  <section id="blog"  style="padding-bottom: 0;padding-top:40px;">
     <div class="container" style="width: 95%;">
       <div class="row">
         <div class="col-md-12">
@@ -13,7 +13,7 @@
       <div class="row">
         <div class="col-md-3 col-sm-6 col-xs-12">
           <div class="InnerWrap">
-            <img src="../../static/img/Production_1.jpg" />
+            <img src="../../static/img/中运卡行产品1.jpg" />
             <div class="OverText">
               <div class="LeftBlock">
                 <span class="TopCont">内容简介内容简介内容简介内容简介内容简介内容简介</span>
@@ -28,7 +28,7 @@
         </div>
         <div class="col-md-3 col-sm-6 col-xs-12">
           <div class="InnerWrap">
-            <img src="../../static/img/Production_2.jpg" />
+            <img src="../../static/img/中运卡行产品2.jpg" />
             <div class="OverText">
               <div class="LeftBlock">
                 <span class="TopCont">内容简介内容简介内容简介内容简介内容简介内容简介</span>
@@ -43,7 +43,7 @@
         </div>
         <div class="col-md-3 col-sm-6 col-xs-12">
           <div class="InnerWrap">
-            <img src="../../static/img/Production_3.jpg" />
+            <img src="../../static/img/中运卡行产品3.jpg" />
             <div class="OverText">
               <div class="LeftBlock">
                 <span class="TopCont">内容简介内容简介内容简介内容简介内容简介内容简介</span>
@@ -58,7 +58,7 @@
         </div>
         <div class="col-md-3 col-sm-6 col-xs-12">
           <div class="InnerWrap">
-            <img src="../../static/img/Production_4.jpg" />
+            <img src="../../static/img/中运卡行产品4.jpg" />
             <div class="OverText">
               <div class="LeftBlock">
                 <span class="TopCont">内容简介内容简介内容简介内容简介内容简介内容简介</span>

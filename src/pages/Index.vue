@@ -1,6 +1,7 @@
 <template>
   <div class="Index">
-    <Carousel/>
+    <!-- <Carousel/> -->
+    <Swiper/>
     <FourBlock/>
     <Production/>
     <Strength/>
@@ -18,6 +19,7 @@
 
 <script>
 import Carousel from '../components/Carousel.vue'
+import Swiper from '../components/Swiper.vue'
 import FourBlock from '../components/FourBlock.vue'
 import Production from '../components/Production.vue'
 import Strength from '../components/Strength.vue'
@@ -28,6 +30,7 @@ export default {
   name: 'Index',
   components: {
     Carousel,
+    Swiper,
     FourBlock,
     Production,
     Strength,
@@ -59,5 +62,10 @@ export default {
   width: 100%;
   height:20px;
   line-height: 20px;
+}
+@media (max-width: 640px){
+  .SideCodeBlcok{
+    display: none;
+  }
 }
 </style>
