@@ -48,7 +48,7 @@
       title=""
       :visible.sync="dialogLoginVisible"
       :close-on-click-modal="false"
-      width="320px"
+      width="340px"
       :close="closeLogin">
       <p class="text-center Tit">登录中运卡行系统</p>
       <div class="InfoBlock">
@@ -75,7 +75,7 @@
       title=""
       :visible.sync="dialogSignVisible"
       :close-on-click-modal="false"
-      width="320px"
+      width="340px"
       :close="closeLogin">
       <p class="text-center Tit">注册中运卡行账号</p>
       <div class="TabBlock">
@@ -125,7 +125,7 @@ export default {
       setTimeout(() => {
         var SlideVerifyPlug = window.slideVerifyPlug
         var slideVerify2 = new SlideVerifyPlug('#verify-wrap', {
-          wrapWidth: '290',
+          wrapWidth: '310',
           initText: '请按住滑块，拖动到最右边',
           sucessText: '验证通过',
           getSucessState: (res) => {
