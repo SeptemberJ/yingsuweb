@@ -163,7 +163,7 @@ export default {
   float: left;
 }
 .LeftInfo .el-input:not(:first-of-type){
-  margin-top: 10px;
+  margin-top: 15px;
 }
 .RightCode{
   width: 80px;
@@ -184,6 +184,7 @@ export default {
 .OptionBlock{
   width: 100%;
   height: 30px;
+  margin: 15px 0;
 }
 .OptionBlock span{
   width: 50%;
@@ -201,6 +202,7 @@ export default {
   line-height: 30px;
   text-align: right;
   font-size: 12px;
+  margin-top: 15px;
 }
 /* sign */
 .TabBlock{
@@ -216,7 +218,7 @@ export default {
   cursor: pointer;
 }
 .activeTab{
-  color: #409EFF;
+  color: #22AC38;
   font-weight: bold;
 }
 .activeTab:after{
@@ -225,7 +227,7 @@ export default {
   margin: auto;
   height: 2px;
   width: 50%;
-  background: #409EFF;
+  background: #22AC38;
   transition: width .5s ease, background-color .5s ease;
 }
 .SignBox .InfoBlock{
@@ -242,11 +244,12 @@ export default {
   position:relative;
   z-index:99;
   padding: 12px 0px;
+  background: #22AC38;
 }
 .Agreement{
   font-size: 12px;
   margin-bottom:10px;
-  color: #409EFF;
+  color: #22AC38;
   font-weight: bold;
   cursor: pointer;
 }

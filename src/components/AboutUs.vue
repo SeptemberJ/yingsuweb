@@ -5,17 +5,17 @@
         <div class="row">
           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <div class="event_header text-center">
-              <h2>关于中运卡行</h2>
+              <h2><span class="ColumTit">关于中运卡行</span></h2>
               <p></p>
             </div>
           </div>
         </div>
-      <div class="" style="background:#41A4F3;">
+      <div class="" style="background:#22AC38;">
         <div class="row">
           <div class="col-md-4 col-sm-12 zero_mp">
             <div class="event_item">
               <div class="event_img">
-                <img src="../../static/img/关于中运卡行.jpg" alt="">
+                <img src="../../static/img/aboutYS.jpg" alt="">
               </div>
             </div>
           </div>
@@ -46,7 +46,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 #event .event_text{
-  background: #41A4F3;
+  background: #22AC38;
 }
 @media (max-width: 768px){
   .event_img img{

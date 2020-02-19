@@ -5,7 +5,7 @@
       <div class="row">
         <div class="col-md-12">
           <div class="latest_blog text-center">
-            <h2>中运卡行产品</h2>
+            <h2><span class="ColumTit">中运卡行产品</span></h2>
             <p>简单几步，轻松发货，实时掌控</p>
           </div>
         </div>
@@ -13,7 +13,7 @@
       <div class="row">
         <div class="col-md-3 col-sm-6 col-xs-12">
           <div class="InnerWrap">
-            <img src="../../static/img/中运卡行产品1.jpg" />
+            <img src="../../static/img/production1.jpg" />
             <div class="OverText">
               <div class="LeftBlock">
                 <span class="TopCont">内容简介内容简介内容简介内容简介内容简介内容简介</span>
@@ -28,7 +28,7 @@
         </div>
         <div class="col-md-3 col-sm-6 col-xs-12">
           <div class="InnerWrap">
-            <img src="../../static/img/中运卡行产品2.jpg" />
+            <img src="../../static/img/production2.jpg" />
             <div class="OverText">
               <div class="LeftBlock">
                 <span class="TopCont">内容简介内容简介内容简介内容简介内容简介内容简介</span>
@@ -43,7 +43,7 @@
         </div>
         <div class="col-md-3 col-sm-6 col-xs-12">
           <div class="InnerWrap">
-            <img src="../../static/img/中运卡行产品3.jpg" />
+            <img src="../../static/img/production3.jpg" />
             <div class="OverText">
               <div class="LeftBlock">
                 <span class="TopCont">内容简介内容简介内容简介内容简介内容简介内容简介</span>
@@ -58,7 +58,7 @@
         </div>
         <div class="col-md-3 col-sm-6 col-xs-12">
           <div class="InnerWrap">
-            <img src="../../static/img/中运卡行产品4.jpg" />
+            <img src="../../static/img/production4.jpg" />
             <div class="OverText">
               <div class="LeftBlock">
                 <span class="TopCont">内容简介内容简介内容简介内容简介内容简介内容简介</span>
@@ -126,7 +126,7 @@ export default {
   background:rgba(39, 39, 39, 0.5);
   float:left;
   color:#fff;
-  padding:40px;
+  padding:20px 40px;
 }
 .RightBlock{
   width:50%;
@@ -140,7 +140,7 @@ export default {
 .TitLine{
   width: 60px;
   height:3px;
-  background: #32bfc0;
+  background: #22AC38;
   display: block;
   margin-top: 50%;
   margin-bottom: 4px;

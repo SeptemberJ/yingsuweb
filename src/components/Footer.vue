@@ -6,11 +6,11 @@
         <div class="copyright col-md-9 col-xs-9">
           <p>客服热线：400-xxx-xxxx</p>
           <p>营业时间：9:00-21:00</p>
-          <p>沪ICP备xxxxxx号</p>
+          <p>沪ICP备19031716号-2</p>
           <p>Copyright © 2003-2019 上海鹰速物流有限公司</p>
         </div>
         <div class="col-md-3 col-xs-3">
-          <img class="footerLogo" src="../../static/img/logo.png" alt="">
+          <img class="footerLogo" src="../../static/img/footerLogo.png" alt="">
         </div>
         <!-- <div class="col-md-12">
           <div class="copyright">
@@ -38,10 +38,10 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .footerWrap{
-  padding: 20px;
+  padding: 20px 11px;
 }
 .footerLogo{
-  width: 152px;
+  width: 100px;
   float: right;
 }
 @media (max-width: 640px){

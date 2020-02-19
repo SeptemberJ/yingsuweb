@@ -4,7 +4,7 @@
     <div class="testimonial_overlay">
       <div class="container" style="width:100%;">
         <div class="testimonial_header text-center">
-          <h2>战略合作客户</h2>
+          <h2><span class="ColumTit">战略合作客户</span></h2>
           <p>资源共享，合作共赢，成就未来</p>
         </div>
         <!--End of row-->
@@ -33,7 +33,7 @@
                             <h5>XXXX集团董事长 路易斯</h5>
                           </div>
                           <div class="testimonial_author">
-                            <img src="../../static/img/partner_1.jpg" alt="">
+                            <img src="../../static/img/partner1.jpg" alt="">
                             <!-- <h5>XXXX集团董事长</h5>
                             <p>路易斯</p> -->
                           </div>
@@ -66,7 +66,7 @@
                             <h5>XXXX集团董事长 路易斯</h5>
                           </div>
                           <div class="testimonial_author">
-                            <img src="../../static/img/partner_2.jpg" alt="">
+                            <img src="../../static/img/partner2.jpg" alt="">
                             <!-- <h5>XXXX集团董事长</h5>
                             <p>路易斯</p> -->
                           </div>
@@ -99,7 +99,7 @@
                             <h5>XXXX集团董事长 路易斯</h5>
                           </div>
                           <div class="testimonial_author">
-                            <img src="../../static/img/partner_3.jpg" alt="">
+                            <img src="../../static/img/partner3.jpg" alt="">
                             <!-- <h5>XXXX集团董事长</h5>
                             <p>路易斯</p> -->
                           </div>

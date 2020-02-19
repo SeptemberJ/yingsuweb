@@ -6,7 +6,7 @@
           <div class="col-md-12">
             <div class="latest_blog text-center">
               <div class="latest_blog text-center">
-              <h2>我们的优势</h2>
+              <h2><span class="ColumTit">我们的优势</span></h2>
               <p>网络货运SaaS云平台，六大优势，为您护航</p>
             </div>
             </div>

@@ -909,6 +909,46 @@
     }
 }
 @media all and (max-width: 640px){
+    .swiper-button-prev, .swiper-button-next{
+      display: block;
+    }
+    .carousel-caption{
+      height: 250px;
+      position: relative;
+      background: #efefef;
+    }
+    .carousel-caption p{
+      width: 90%;
+      height: 250px;
+      margin: 0 auto;
+      padding: 2px 15px;
+      font-size: 16px;
+      color: #000;
+    }
+    .carousel-caption p span{
+      display: block;
+      text-align: center;
+    }
+    .carousel-caption p span:first-of-type{
+      width: 100%;
+      text-align: center;
+      margin-top: 50px;
+    }
+    .carousel-caption p span:last-of-type{
+      width: 40%;
+      height: 35px;
+      line-height: 35px;
+      text-align: center;
+      position: absolute;
+      left: 30%;
+      bottom: 70px;
+      background: #41A4F3;
+      color: #fff;
+    }
+    .carousel-caption p i{
+      font-size: 16px;
+      margin: 0 5px;
+    }
     #slider .slider_text h2 {
         font-size: 18px;
         padding: 5px 0;
