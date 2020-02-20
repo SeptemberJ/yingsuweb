@@ -1,15 +1,24 @@
 <template>
-<div id="aboutUs">
+<div id="aboutUs" style="background: rgba(242, 242, 242, 1);">
   <section id="event">
     <div class="container">
-        <div class="row">
-          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <div class="event_header text-center">
-              <h2><span class="ColumTit">关于中运卡行</span></h2>
-              <p></p>
-            </div>
+      <div class="row" id="blog" style="padding-top: 0;padding-bottom: 40px;">
+        <div class="col-md-12">
+          <div class="latest_blog text-center">
+            <div class="latest_blog text-center">
+            <h2><span class="ColumTit">关于中运卡行</span></h2>
+          </div>
           </div>
         </div>
+      </div>
+      <!-- <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <div class="event_header text-center">
+            <h2><span class="ColumTit">关于中运卡行</span></h2>
+            <p></p>
+          </div>
+        </div>
+      </div> -->
       <div class="" style="background:#22AC38;">
         <div class="row">
           <div class="col-md-4 col-sm-12 zero_mp">
@@ -48,12 +57,19 @@ export default {
 #event .event_text{
   background: #22AC38;
 }
+.event_text p{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  padding: 0 30px;
+  transform: translateY(-50%);
+}
 @media (max-width: 768px){
   .event_img img{
     min-height: 160px;
   }
   #event .event_text{
-    min-height: 160px;
+    /* min-height: 160px; */
   }
 }
 </style>

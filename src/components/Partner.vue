@@ -27,31 +27,15 @@
                           <div class="profile-circle">
                             <img src="../../static/img/p3.jpg" alt="">
                           </div>
-                          <div class="testimonial_content">
-                            <i class="fa fa-quote-left"></i>
+                          <div class="testimonial_content" style="background:rgba(33, 150, 243, 1);">
+                            <!-- <i class="fa fa-quote-left"></i> -->
                             <p>中运卡行的成长速度令人惊讶！他们那群年轻人的热情与专注，使我始终对中运卡行充满信心。这个人性化、接地气的网络货运解决方案极大地提升了我们的运营效率和资金效率，也赢得了越来越多的用户认可。做物流，选平台，我推荐中运卡行</p>
                             <h5>XXXX集团董事长 路易斯</h5>
                           </div>
                           <div class="testimonial_author">
                             <img src="../../static/img/partner1.jpg" alt="">
-                            <!-- <h5>XXXX集团董事长</h5>
-                            <p>路易斯</p> -->
                           </div>
                         </div>
-                        <!-- <div class="col-md-6">
-                          <div class="profile-circle">
-                            <img src="../../static/img/p3.jpg" alt="">
-                          </div>
-                          <div class="testimonial_content">
-                            <img src="../../static/img/partner_1.jpg" alt="">
-                            <i class="fa fa-quote-left"></i>
-                            <p>中运卡行的成长速度令人惊讶！他们那群年轻人的热情与专注，使我始终对中运卡行充满信心。这个人性化、接地气的网络货运解决方案极大地提升了我们的运营效率和资金效率，也赢得了越来越多的用户认可。做物流，选平台，我推荐中运卡行</p>
-                          </div>
-                          <div class="testimonial_author">
-                            <h5>XXXX集团董事长</h5>
-                            <p>路易斯</p>
-                          </div>
-                        </div> -->
                       </div>
                     </div>
                     <div class="item">
@@ -60,31 +44,14 @@
                           <div class="profile-circle">
                             <img src="../../static/img/mem3.jpg" alt="">
                           </div>
-                          <div class="testimonial_content">
-                            <i class="fa fa-quote-left"></i>
+                          <div class="testimonial_content" style="background:rgba(50, 191, 192, 1);">
                             <p>中运卡行的成长速度令人惊讶！他们那群年轻人的热情与专注，使我始终对中运卡行充满信心。这个人性化、接地气的网络货运解决方案极大地提升了我们的运营效率和资金效率，也赢得了越来越多的用户认可。做物流，选平台，我推荐中运卡行</p>
                             <h5>XXXX集团董事长 路易斯</h5>
                           </div>
                           <div class="testimonial_author">
                             <img src="../../static/img/partner2.jpg" alt="">
-                            <!-- <h5>XXXX集团董事长</h5>
-                            <p>路易斯</p> -->
                           </div>
                         </div>
-                        <!-- <div class="col-md-6">
-                          <div class="profile-circle">
-                            <img src="../../static/img/p3.jpg" alt="">
-                          </div>
-                          <div class="testimonial_content">
-                            <img src="../../static/img/partner_1.jpg" alt="">
-                            <i class="fa fa-quote-left"></i>
-                            <p>中运卡行的成长速度令人惊讶！他们那群年轻人的热情与专注，使我始终对中运卡行充满信心。这个人性化、接地气的网络货运解决方案极大地提升了我们的运营效率和资金效率，也赢得了越来越多的用户认可。做物流，选平台，我推荐中运卡行</p>
-                          </div>
-                          <div class="testimonial_author">
-                            <h5>XXXX集团董事长</h5>
-                            <p>路易斯</p>
-                          </div>
-                        </div> -->
                       </div>
                     </div>
                     <div class="item">
@@ -93,31 +60,14 @@
                           <div class="profile-circle">
                             <img src="../../static/img/p2.jpg" alt="">
                           </div>
-                          <div class="testimonial_content">
-                            <i class="fa fa-quote-left"></i>
+                          <div class="testimonial_content" style="background:rgba(245, 154, 35, 1);">
                             <p>中运卡行的成长速度令人惊讶！他们那群年轻人的热情与专注，使我始终对中运卡行充满信心。这个人性化、接地气的网络货运解决方案极大地提升了我们的运营效率和资金效率，也赢得了越来越多的用户认可。做物流，选平台，我推荐中运卡行</p>
                             <h5>XXXX集团董事长 路易斯</h5>
                           </div>
                           <div class="testimonial_author">
                             <img src="../../static/img/partner3.jpg" alt="">
-                            <!-- <h5>XXXX集团董事长</h5>
-                            <p>路易斯</p> -->
                           </div>
                         </div>
-                        <!-- <div class="col-md-6">
-                          <div class="profile-circle">
-                            <img src="../../static/img/p3.jpg" alt="">
-                          </div>
-                          <div class="testimonial_content">
-                            <img src="../../static/img/partner_1.jpg" alt="">
-                            <i class="fa fa-quote-left"></i>
-                            <p>中运卡行的成长速度令人惊讶！他们那群年轻人的热情与专注，使我始终对中运卡行充满信心。这个人性化、接地气的网络货运解决方案极大地提升了我们的运营效率和资金效率，也赢得了越来越多的用户认可。做物流，选平台，我推荐中运卡行</p>
-                          </div>
-                          <div class="testimonial_author">
-                            <h5>XXXX集团董事长</h5>
-                            <p>路易斯</p>
-                          </div>
-                        </div> -->
                       </div>
                     </div>
                     <!--ENd of item-->
@@ -207,8 +157,21 @@ export default {
 .PadNo{
   padding: 0 !important;
 }
+.testimonial_content p:before{
+  content: '"';
+  font-size: 35px;
+  height: 35px;
+  color: #fff;
+  font-weight: bold;
+  display: block;
+  font-style: italic;
+}
+.testimonial_content p{
+  color: #fff;
+}
 .testimonial_content h5{
   float:right;
   margin-top:10px;
+  color: #fff;
 }
 </style>

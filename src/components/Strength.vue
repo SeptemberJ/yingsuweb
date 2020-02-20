@@ -15,7 +15,7 @@
         <div class="outWrap col-md-4 col-sm-6 col-xs-12">
           <div class="item t-center">
             <div class="item-container">
-              <img src="../../static/img/icons/zz.png" />
+              <img src="../../static/img/icons/zdsb.png" />
             </div>
           </div>
           <div class="RightCont">
@@ -26,7 +26,7 @@
         <div class="outWrap col-md-4 col-sm-6 col-xs-12">
           <div class="item t-center">
             <div class="item-container">
-              <img src="../../static/img/icons/qy.png" />
+              <img src="../../static/img/icons/zxzf.png" />
             </div>
           </div>
           <div class="RightCont">
@@ -37,7 +37,7 @@
         <div class="outWrap col-md-4 col-sm-6 col-xs-12">
           <div class="item t-center">
             <div class="item-container">
-              <img src="../../static/img/icons/qc.png" />
+              <img src="../../static/img/icons/qy.png" />
             </div>
           </div>
           <div class="RightCont">
@@ -48,7 +48,7 @@
         <div class="outWrap col-md-4 col-sm-6 col-xs-12">
           <div class="item t-center">
             <div class="item-container">
-              <img src="../../static/img/icons/fw.png" />
+              <img src="../../static/img/icons/ydd.png" />
             </div>
           </div>
           <div class="RightCont">
@@ -59,7 +59,7 @@
         <div class="outWrap col-md-4 col-sm-6 col-xs-12">
           <div class="item t-center">
             <div class="item-container">
-              <img src="../../static/img/icons/fk.png" />
+              <img src="../../static/img/icons/qcksh.png" />
             </div>
           </div>
           <div class="RightCont">
@@ -70,7 +70,7 @@
         <div class="outWrap col-md-4 col-sm-6 col-xs-12">
           <div class="item t-center">
             <div class="item-container">
-              <img src="../../static/img/icons/sj.png" />
+              <img src="../../static/img/icons/bx.png" />
             </div>
           </div>
           <div class="RightCont">
@@ -105,7 +105,7 @@ export default {
   height:150px;
 }
 .item-container {
-  background: #32bfc0;
+  background: #22AC38;
 }
 .item-container img{
   width:25px;
@@ -156,6 +156,7 @@ export default {
 .RightCont p{
   width: 80%;
   padding: 20px 20px 20px 20px;
+  font-weight: normal !important;
 }
 @media (max-width: 768px){
   .RightCont p{

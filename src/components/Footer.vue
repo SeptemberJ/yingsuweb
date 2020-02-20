@@ -4,7 +4,7 @@
     <div class="container">
       <div class="row text-center footerWrap">
         <div class="copyright col-md-9 col-xs-9">
-          <p>客服热线：400-xxx-xxxx</p>
+          <p>客服热线：400-888-8888</p>
           <p>营业时间：9:00-21:00</p>
           <p>沪ICP备19031716号-2</p>
           <p>Copyright © 2003-2019 上海鹰速物流有限公司</p>

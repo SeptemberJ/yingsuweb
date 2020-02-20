@@ -1,11 +1,10 @@
 
 /*UNIVERSAL CODE*/
-
 * {
     margin: 0;
     padding: 0;
 }
-body{
+html, body{
   min-width: 320px;
 }
 .alignleft {
@@ -60,10 +59,12 @@ h6 {
     margin: 0;
     padding: 0;
     font-weight: normal;
+    font-family: PingFangSC-Regular, sans-serif !important;
 }
 p {
     padding: 0;
     margin: 0;
+    font-family: PingFangSC-Regular, sans-serif !important;
 }
 img {
     max-width: 100%;
@@ -76,11 +77,28 @@ html {
   font-size: 12px !important;
   padding-left: 5px !important;
 }
+.LoginBox .el-dialog__header{
+  text-align: center;
+}
 .LoginBox .el-dialog__body{
-  padding: 10px 20px !important;
+  padding: 30px 30px 10px 30px !important;
+}
+.LoginBox .el-input__inner{
+  height: 35px !important;
+  line-height: 35px !important;
+  border-radius: 0px !important;
+}
+/* Sign */
+.SignBox .el-dialog__header{
+  text-align: center;
 }
 .SignBox .el-dialog__body{
-  padding: 10px 15px !important;
+  padding: 30px 30px 10px 30px !important;
+}
+.SignBox .el-input__inner{
+  height: 35px !important;
+  line-height: 35px !important;
+  border-radius: 0px !important;
 }
 .Agreement .el-checkbox__label{
   font-size: 12px !important;
@@ -96,6 +114,9 @@ html {
   height: 3px;
   margin: 10px auto 0 auto;
   display: block;
+}
+.v-modal{
+  z-index: 20 !important;
 }
 /*Remove chrome Input Field’s Unwanted Yellow Background Color*/
 /* swiper */
@@ -347,6 +368,7 @@ html {
   bottom: 0 !important;
   padding-top: 0 !important;
   padding-bottom: 0 !important;
+  text-shadow: none !important;
 }
 .carousel-caption p{
   width: 90%;
@@ -400,6 +422,7 @@ html {
 }
 #welcome .single_item {
     padding-top: 30px;
+    padding-bottom: 20px;
     text-align: center;
 }
 #welcome .welcome_icon {
@@ -632,7 +655,7 @@ section#counter {
 
 #event {
     min-height: 550px;
-    background: #fff;
+    /* background: #fff; */
     color: #000;
     padding: 80px 0px;
 }
@@ -681,10 +704,11 @@ section#counter {
     font-size: 14px;
     color: #fff;
     /* color: #646464; */
-    padding-bottom: 35px;
+    /* padding-bottom: 35px; */
     text-align: left;
     font-family: 'Open Sans', sans-serif;
     line-height: 30px;
+    padding: auto 10px 0 10px !important;
 }
 #event a.event_btn {
     background: #101010;
@@ -759,6 +783,7 @@ section#counter {
 }
 #blog p {
     display: inline-block;
+    font-weight: bold;
 }
 #blog .latest_blog {
 }

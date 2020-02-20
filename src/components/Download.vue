@@ -1,6 +1,6 @@
 <template>
 <div id="download">
-  <section id="blog" style="padding-bottom: 0;padding-top:40px;">
+  <section id="blog" style="padding-bottom: 0;">
     <div class="container">
       <div class="row">
         <div class="col-md-12">

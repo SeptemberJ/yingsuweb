@@ -42,6 +42,9 @@ export default {
 </script>
 
 <style>
+.Index{
+  margin-top: 64px;
+}
 .SideCodeBlcok{
   width: 80px;
   height: 220px;
@@ -49,7 +52,7 @@ export default {
   position: fixed;
   top: 150px;
   right: 10px;
-  z-index: 999;
+  z-index: 19;
   text-align: center;
 }
 .SideCodeBlcok img{

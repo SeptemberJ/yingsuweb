@@ -1,4 +1,5 @@
 <template>
+<section id="Carousel" class="CarouselBlock">
   <swiper :options="swiperOption">
     <swiper-slide class="swiper-slide" v-for="(item,index) in carouselArr" :key="index">
       <img :src="item.img"/>
@@ -12,6 +13,7 @@
     <div class="swiper-button-prev" slot="button-prev"></div>
     <div class="swiper-button-next" slot="button-next"></div>
   </swiper>
+</section>
 </template>
 
 <script>
@@ -57,6 +59,12 @@ export default {
 }
 </script>
 <style scoped>
+.CarouselBlock{
+  /* width: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 0; */
+}
 .swiper-container{
   /* max-height: 500px; */
 }

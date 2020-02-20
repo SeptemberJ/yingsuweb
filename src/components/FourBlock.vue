@@ -24,7 +24,7 @@
                     </div>
                   </div>
                   <div class="col-md-9 col-sm-9 col-xs-9">
-                    <h4>实时发货</h4>
+                    <h5>实时发货</h5>
                     <p>文案内容文案内</p>
                   </div>
                 </div>
@@ -44,7 +44,7 @@
                     </div>
                   </div>
                   <div class="col-md-9 col-sm-9 col-xs-9">
-                    <h4>实时发货</h4>
+                    <h5>实时发货</h5>
                     <p>文案内容文案内</p>
                   </div>
                 </div>
@@ -64,7 +64,7 @@
                     </div>
                   </div>
                   <div class="col-md-9 col-sm-9 col-xs-9">
-                    <h4>实时发货</h4>
+                    <h5>实时发货</h5>
                     <p>文案内容文案内</p>
                   </div>
                 </div>
@@ -84,7 +84,7 @@
                     </div>
                   </div>
                   <div class="col-md-9 col-sm-9 col-xs-9">
-                    <h4>实时发货</h4>
+                    <h5>实时发货</h5>
                     <p>文案内容文案内</p>
                   </div>
                 </div>
@@ -116,7 +116,13 @@ export default {
 #welcome .item_list h4{
   text-align: left;
 }
+#welcome .item_list h5{
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 5px;
+}
 #welcome .item_list p{
   text-align: left;
+  font-size: 14px;
 }
 </style>

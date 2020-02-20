@@ -1,6 +1,6 @@
 <template>
-<div id="production">
-  <section id="blog"  style="padding-bottom: 0;padding-top:40px;">
+<div id="production" style="background: rgba(242, 242, 242, 1);padding-bottom: 40px;">
+  <section id="blog"  style="padding-bottom: 0;">
     <div class="container" style="width: 95%;">
       <div class="row">
         <div class="col-md-12">
