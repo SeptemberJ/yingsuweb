@@ -11,7 +11,8 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand custom_navbar-brand" href="#"><img src="../../static/img/logo.png" alt=""></a>
+              <a class="navbar-brand custom_navbar-brand" href="#"><img src="../../static/img/footerLogo.png" alt=""></a>
+              <span class="ZT">中运卡行</span>
             </div>
             <div class="collapse navbar-collapse zero_mp" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav navbar-right main_menu">
@@ -41,7 +42,7 @@
       title="登录中运卡行系统"
       :visible.sync="dialogLoginVisible"
       :close-on-click-modal="false"
-      :width="dialogWidth"
+      :width="dialoglWidth"
       :close="closeLogin">
       <div class="InfoBlock">
         <div class="LeftInfo">
@@ -66,7 +67,7 @@
       title="注册中运卡行账号"
       :visible.sync="dialogSignVisible"
       :close-on-click-modal="false"
-      :width="dialogWidth"
+      :width="dialogSWidth"
       :close="closeLogin">
       <div class="TabBlock">
         <span :class="{activeTab: activeRole == 0}" @click="changeRole(0)">企业货主</span>
@@ -80,7 +81,7 @@
         <el-input placeholder="请重复输入您的密码" prefix-icon="el-icon-lock" v-model="password" type="password"></el-input>
       </div>
       <div class="Agreement">
-        <el-checkbox v-model="ifRemember">阅读并同意</el-checkbox>
+        <el-checkbox v-model="ifRemember"><b>阅读并同意</b></el-checkbox>
         <span v-if="activeRole == 0" @click="showAgreement">《XXXXXX货主服务协议》</span>
         <span v-if="activeRole == 1" @click="showAgreement">《XXXXXX物流车队服务协议》</span>
       </div>
@@ -111,7 +112,8 @@ export default {
       menuIdx: 0,
       dialogLoginVisible: false,
       dialogSignVisible: false,
-      dialogWidth: '320px',
+      dialoglWidth: '320px',
+      dialogSWidth: '340px',
       Wid: '',
       account: '',
       password: '',
@@ -150,7 +152,7 @@ export default {
       setTimeout(() => {
         var SlideVerifyPlug = window.slideVerifyPlug
         var slideVerify2 = new SlideVerifyPlug('#verify-wrap', {
-          wrapWidth: this.dialogWidth.slice(0, 3) - 60,
+          wrapWidth: this.dialogSWidth.slice(0, 3) - 60,
           initText: '请按住滑块，拖动到最右边',
           sucessText: '验证通过',
           getSucessState: (res) => {
@@ -192,6 +194,9 @@ export default {
 .LoginBox .InfoBlock{
   width: 100%;
   height: 100px;
+}
+.LoginBox, .SignBox{
+  background: rgba(39, 39, 39, 0.5);
 }
 .LeftInfo{
   width: calc(100% - 80px);

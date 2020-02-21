@@ -155,7 +155,7 @@ export default {
   width: 100px;
   height:30px;
   line-height: 30px;
-  background: rgb(245, 154, 35);
+  background: #22AC38;
   color: #fff;
   display: block;
 }

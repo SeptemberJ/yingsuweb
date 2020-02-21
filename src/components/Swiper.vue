@@ -20,10 +20,7 @@
 export default {
   data () {
     return {
-      carouselArr: [
-        {img: '../../../static/img/banner.jpg', news: '[2020-01-20]关于2020年春节假期平台放假通知'},
-        {img: '../../../static/img/banner.jpg', news: '春节假期平台放假通知'}
-      ],
+      carouselArr: [],
       swiperOption: {
         pagination: {
           el: '.swiper-pagination',
@@ -41,20 +38,42 @@ export default {
         //   delay: 4000,
         //   disableOnInteraction: false
         // },
-        loop: true
-      }
+        loop: false
+      },
+      screenWidth: document.documentElement.clientWidth
     }
+  },
+  watch: {
+    'screenWidth': (val) => {
+    }
+  },
+  mounted () {
+    window.onresize = this.changeBanner
   },
   created () {
-    let Wid = window.innerWidth
-    if (Wid <= 991) {
-      this.carouselArr = [
-        {img: '../../../static/img/bannerY.jpg', news: '[2020-01-20]关于2020年春节假期平台放假通知'},
-        {img: '../../../static/img/bannerY.jpg', news: '春节假期平台放假通知'}
-      ]
-    }
+    this.changeBanner()
   },
   methods: {
+    changeBanner () {
+      let clientWidth = document.documentElement.clientWidth
+      this.screenWidth = clientWidth
+      if (clientWidth > 1024) {
+        this.carouselArr = [
+          {img: '../../../static/img/banner1.jpg', news: '[2020-01-20]关于2020年春节假期平台放假通知'},
+          {img: '../../../static/img/banner2.jpg', news: '春节假期平台放假通知'},
+          {img: '../../../static/img/banner3.jpg', news: '放假通知'}
+        ]
+      } else if (clientWidth > 768 && clientWidth <= 1024) {
+        this.carouselArr = [
+          {img: '../../../static/img/banner_2_1024.jpg', news: '[2020-01-20]关于2020年春节假期平台放假通知'}
+        ]
+      } else {
+        this.carouselArr = [
+          {img: '../../../static/img/partnerBg.jpg', news: '[2020-01-20]关于2020年春节假期平台放假通知'},
+          {img: '../../../static/img/partnerBg.jpg', news: '春节假期平台放假通知'}
+        ]
+      }
+    }
   }
 }
 </script>

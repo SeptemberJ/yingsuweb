@@ -2,7 +2,7 @@
 <div id="aboutUs" style="background: rgba(242, 242, 242, 1);">
   <section id="event">
     <div class="container">
-      <div class="row" id="blog" style="padding-top: 0;padding-bottom: 40px;">
+      <div class="row" id="blog" style="padding-top: 30px;padding-bottom: 40px;">
         <div class="col-md-12">
           <div class="latest_blog text-center">
             <div class="latest_blog text-center">
@@ -19,7 +19,7 @@
           </div>
         </div>
       </div> -->
-      <div class="" style="background:#22AC38;">
+      <div class="">
         <div class="row">
           <div class="col-md-4 col-sm-12 zero_mp">
             <div class="event_item">
@@ -55,7 +55,9 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 #event .event_text{
-  background: #22AC38;
+  background-image: url('../../static/img/aboutusBg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .event_text p{
   position: absolute;
