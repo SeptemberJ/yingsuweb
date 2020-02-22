@@ -2,7 +2,7 @@
 <div id="download">
   <section id="blog" style="padding-bottom: 0;">
     <div class="container">
-      <div class="row">
+      <div class="row" style="padding-top: 15px;">
         <div class="col-md-12">
           <div class="latest_blog text-center">
             <h2><span class="ColumTit">移动端下载</span></h2>

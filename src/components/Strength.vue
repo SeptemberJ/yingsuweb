@@ -1,8 +1,8 @@
 <template>
 <div id="strength">
   <section id="blog">
-    <div class="container">
-        <div class="row">
+    <div class="container" style="width: 78%;margin: 0 auto;">
+        <div class="row" style="padding-top: 20px;">
           <div class="col-md-12">
             <div class="latest_blog text-center">
               <div class="latest_blog text-center">

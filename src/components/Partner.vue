@@ -1,5 +1,5 @@
 <template>
-<div id="partner">
+<div id="partner" style="padding-top: 15px;">
   <section id="testimonial">
     <div class="testimonial_overlay">
       <div class="container" style="width:100%;">
@@ -173,5 +173,8 @@ export default {
   float:right;
   margin-top:10px;
   color: #fff;
+}
+.testimonial_author img{
+  width: 100%;
 }
 </style>

@@ -3,8 +3,15 @@
   <swiper :options="swiperOption">
     <swiper-slide class="swiper-slide" v-for="(item,index) in carouselArr" :key="index">
       <img :src="item.img"/>
+      <div class="ContentTxt">
+        <div class="slider_text">
+          <h2>正标题内容</h2>
+          <p>副标题副标题副标题副标题</p>
+          <a class="custom_btn">查看更多</a>
+        </div>
+      </div>
       <div class="carousel-caption">
-        <p><span><i class="fa fa-volume-up"></i>{{item.news}}</span><span>查看更多</span></p>
+        <p><span><i class="fa fa-volume-up"></i>{{item.news}}</span><span>查看更多 ></span></p>
       </div>
     </swiper-slide>
     <!-- 分页器 -->
@@ -57,22 +64,24 @@ export default {
     changeBanner () {
       let clientWidth = document.documentElement.clientWidth
       this.screenWidth = clientWidth
-      if (clientWidth > 1024) {
+      if (clientWidth > 768) {
         this.carouselArr = [
           {img: '../../../static/img/banner1.jpg', news: '[2020-01-20]关于2020年春节假期平台放假通知'},
           {img: '../../../static/img/banner2.jpg', news: '春节假期平台放假通知'},
           {img: '../../../static/img/banner3.jpg', news: '放假通知'}
         ]
-      } else if (clientWidth > 768 && clientWidth <= 1024) {
-        this.carouselArr = [
-          {img: '../../../static/img/banner_2_1024.jpg', news: '[2020-01-20]关于2020年春节假期平台放假通知'}
-        ]
       } else {
         this.carouselArr = [
           {img: '../../../static/img/partnerBg.jpg', news: '[2020-01-20]关于2020年春节假期平台放假通知'},
+          {img: '../../../static/img/partnerBg.jpg', news: '春节假期平台放假通知'},
           {img: '../../../static/img/partnerBg.jpg', news: '春节假期平台放假通知'}
         ]
       }
+      // else if (clientWidth > 768 && clientWidth <= 1024) {
+      //   this.carouselArr = [
+      //     {img: '../../../static/img/banner_2_1024.jpg', news: '[2020-01-20]关于2020年春节假期平台放假通知'}
+      //   ]
+      // }
     }
   }
 }

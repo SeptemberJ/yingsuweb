@@ -2,7 +2,7 @@
 <div id="aboutUs" style="background: rgba(242, 242, 242, 1);">
   <section id="event">
     <div class="container">
-      <div class="row" id="blog" style="padding-top: 30px;padding-bottom: 40px;">
+      <div class="row" id="blog" style="padding-top: 15px;padding-bottom: 40px;">
         <div class="col-md-12">
           <div class="latest_blog text-center">
             <div class="latest_blog text-center">

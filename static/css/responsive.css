@@ -1,7 +1,37 @@
 /*Medium Screen*/
 
-@media (max-width: 1199px) {}
+@media (max-width: 1920px) {
+  .ContentTxt .slider_text h2{
+    font-size: 52px;
+    padding: 10px 0;
+  }
+  .ContentTxt .slider_text p{
+    padding: 10px 0;
+    font-size: 20px;
+    letter-spacing:2px;
+  }
+}
+@media (max-width: 1680px) {
+  .ContentTxt .slider_text h2{
+    font-size: 42px;
+  }
+  .ContentTxt .slider_text p{
+    font-size: 18px;
+  }
+}
+@media (max-width: 1366px) {
+  .ContentTxt .slider_text h2{
+    font-size: 32px;
+  }
+  .ContentTxt .slider_text p{
+    font-size: 16px;
+  }
+}
 @media (max-width: 991px) {
+    #blog {
+      /* min-height: 500px; */
+      padding: 40px 0 80px 0;
+    }
     #header .top_header .phone p {
         font-size: 11px;
     }
@@ -72,6 +102,17 @@
     }
     .ZT{
       transform: translateY(45%);
+    }
+    .carousel-caption{
+      height: 30px;
+      line-height: 30px;
+    }
+    .carousel-caption p{
+      width: 100%;
+      height: 30px;
+      line-height: 30px;
+      padding: 2px 5px !important;
+      font-size: 12px;
     }
     .navbar-toggle {
         display: block;
@@ -932,7 +973,7 @@
     .swiper-button-prev, .swiper-button-next{
       display: block;
     }
-    .carousel-caption{
+    /* .carousel-caption{
       height: 250px;
       position: relative;
       background: #efefef;
@@ -968,7 +1009,7 @@
     .carousel-caption p i{
       font-size: 16px;
       margin: 0 5px;
-    }
+    } */
     #slider .slider_text h2 {
         font-size: 18px;
         padding: 5px 0;
@@ -994,6 +1035,47 @@
     }
 }
 @media all and (max-width: 480px) {
+    .ContentTxt{
+      position: relative;
+      top: 60px;
+      height: 175px !important;
+      background: rgb(242, 242, 242);
+    }
+    .carousel-caption{
+      height: 30px;
+      line-height: 30px;
+    }
+    .carousel-caption p{
+      width: 100%;
+      height: 30px;
+      line-height: 30px;
+      padding: 2px 5px !important;
+      font-size: 10px;
+    }
+    .ContentTxt .slider_text h2{
+      font-size: 24px;
+    }
+    .ContentTxt .slider_text p{
+      font-size: 14px;
+    }
+    .ContentTxt .slider_text{
+      color: #333;
+    }
+    .ContentTxt .slider_text h2{
+      padding: 5px 0;
+    }
+    .ContentTxt .slider_text p{
+      padding: 5px 0;
+    }
+    .ContentTxt .slider_text a.custom_btn{
+      background: #22AC38;
+      padding: 4px 10px;
+      color: #fff;
+      margin-top: 8px;
+      display: block;
+      width: 100px;
+      margin: 10px auto 0 auto;
+    }
     #header .header_menu .custom_navbar-brand {
         padding-top: 8px;
     }
@@ -1086,7 +1168,7 @@
         font-size: 12px;
     }
     #welcome .item_list p {
-        font-size: 11px;
+        font-size: 12px !important;
     }
     #volunteer .vol_area {
         padding-top: 60px;

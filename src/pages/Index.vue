@@ -45,7 +45,7 @@ export default {
 
 <style>
 .Index{
-  margin-top: 64px;
+  margin-top: 66px;
 }
 .SideCodeBlcok{
   width: 80px;
