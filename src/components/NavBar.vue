@@ -28,7 +28,7 @@
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-question-sign" style="padding-right:4px;"></span>客户服务 <span class="caret"></span></a>
                   <ul class="dropdown-menu">
                     <li><a href="#"><i class="fa fa-envelope"></i>support@hawksu.com</a></li>
-                    <li><a href="#"><i class="fa fa-phone"></i>400-888-8888</a></li>
+                    <li><a href="#"><i class="fa fa-phone"></i>400-865-5156</a></li>
                     <li><a href="#"><i class="fa fa-user"></i>查看所有联络方式</a></li>
                   </ul>
                 </li>
@@ -40,9 +40,9 @@
     </div>
     <el-dialog class="LoginBox"
       title="登录中运卡行系统"
+      width="26%"
       :visible.sync="dialogLoginVisible"
       :close-on-click-modal="false"
-      :width="dialoglWidth"
       :close="closeLogin">
       <div class="InfoBlock">
         <div class="LeftInfo">
@@ -67,13 +67,13 @@
       title="注册中运卡行账号"
       :visible.sync="dialogSignVisible"
       :close-on-click-modal="false"
-      :width="dialogSWidth"
+      width="24%"
       :close="closeLogin">
       <div class="TabBlock">
         <span :class="{activeTab: activeRole == 0}" @click="changeRole(0)">企业货主</span>
         <span :class="{activeTab: activeRole == 1}" @click="changeRole(1)">物流车队</span>
       </div>
-      <div class="InfoBlock">
+      <div class="InfoBlock" style="overflow:hidden;">
         <el-input placeholder="请输入您的手机号码" prefix-icon="el-icon-user-solid" v-model="account"></el-input>
         <div class="verify-wrap" id="verify-wrap" style="margin-top:10px;"></div>
         <el-input placeholder="请输入图形验证码" prefix-icon="el-icon-postcard" v-model="account" style="width:68%;border-right:0;display:inlie-block;"></el-input><el-button type="primary" class="CodeBlock" style="">获取验证码</el-button>
@@ -112,8 +112,8 @@ export default {
       menuIdx: 0,
       dialogLoginVisible: false,
       dialogSignVisible: false,
-      dialoglWidth: '320px',
-      dialogSWidth: '340px',
+      // dialoglWidth: '320px',
+      // dialogSWidth: '340px',
       Wid: '',
       account: '',
       password: '',
@@ -121,26 +121,39 @@ export default {
       activeRole: '0'
     }
   },
-  // created () {
-  //   let Wid = window.innerWidth
-  //   this.Wid = Wid
-  //   if (Wid > 1707 && Wid <= 1920) {
-  //     this.dialogWidth = '420px'
-  //   }
-  //   if (Wid > 1600 && Wid <= 1707) {
-  //     this.dialogWidth = '380px'
-  //   }
-  //   if (Wid >= 1422 && Wid <= 1600) {
-  //     this.dialogWidth = '360px'
-  //   }
-  //   if (Wid >= 768 && Wid < 1422) {
-  //     this.dialogWidth = '340px'
-  //   }
-  //   if (Wid <= 768) {
-  //     this.dialogWidth = '320px'
-  //   }
-  // },
+  created () {
+    this.Wid = window.innerWidth
+  },
+  watch: {
+    Wid() {
+      this.resize()
+    }
+  },
+  mounted () {
+    window.onresize = ()=>{
+      return(()=>{
+        this.Wid = window.innerWidth
+      })()
+    }
+  },
   methods: {
+    resize () {
+      setTimeout(() => {
+        let PadWid = $('.SignBox .el-dialog__body').width()
+        let SignBoxWidth = $('.SignBox .el-dialog__body').width()
+        console.log(PadWid)
+        var SlideVerifyPlug = window.slideVerifyPlug
+        var slideVerify2 = new SlideVerifyPlug('#verify-wrap', {
+          wrapWidth: PadWid - 0,
+          initText: '请按住滑块，拖动到最右边',
+          sucessText: '验证通过',
+          getSucessState: (res) => {
+            this.ifSlideChecked = res
+          }
+        })
+        slideVerify2.resetVerify()
+      }, 300)
+    },
     changeMenu (idx) {
       this.menuIdx = idx
     },
@@ -149,18 +162,7 @@ export default {
     },
     showSignBox () {
       this.dialogSignVisible = true
-      setTimeout(() => {
-        var SlideVerifyPlug = window.slideVerifyPlug
-        var slideVerify2 = new SlideVerifyPlug('#verify-wrap', {
-          wrapWidth: this.dialogSWidth.slice(0, 3) - 60,
-          initText: '请按住滑块，拖动到最右边',
-          sucessText: '验证通过',
-          getSucessState: (res) => {
-            this.ifSlideChecked = res
-          }
-        })
-        slideVerify2.resetVerify()
-      }, 100)
+      this.resize()
     },
     closeLogin () {
       this.dialogLoginVisible = true
@@ -172,13 +174,8 @@ export default {
   }
 }
 </script>
-
 <style scoped>
 #header{
-  /* width: 100%;
-  position: fixed;
-  top: 0;
-  left: 0; */
   width: 100%;
   position: absolute;
   top: -66px;
@@ -193,28 +190,13 @@ export default {
 }
 .LoginBox .InfoBlock{
   width: 100%;
-  height: 100px;
+  float: left;
 }
 .LoginBox, .SignBox{
   background: rgba(39, 39, 39, 0.5);
 }
-.LeftInfo{
-  width: calc(100% - 80px);
-  height: 100px;
-  float: left;
-}
 .LeftInfo .el-input{
   margin-top: 10px;
-}
-.RightCode{
-  width: 80px;
-  height: 100px;
-  float: right;
-}
-.RightCode img{
-  width: 50px;
-  height: 50px;
-  margin: 10px 15px;
 }
 .RightCode p{
   height: 20px;
@@ -226,13 +208,12 @@ export default {
 .OptionBlock{
   width: 100%;
   height: 30px;
-  margin-top: 15px;
+  float: left;
 }
 .OptionBlock span{
   width: 50%;
   float: left;
   display: inline-block;
-  font-size: 12px;
   cursor: pointer;
 }
 .OptionBlock span:last-of-type{
@@ -243,8 +224,6 @@ export default {
   height: 30px;
   line-height: 30px;
   text-align: right;
-  font-size: 12px;
-  /* margin-top: 15px; */
 }
 /* sign */
 .TabBlock{
@@ -274,7 +253,6 @@ export default {
 }
 .SignBox .InfoBlock{
   width: 100%;
-  height: 240px;
 }
 .SignBox .InfoBlock .el-input:not(:first-of-type){
   margin-top: 10px;
@@ -283,9 +261,10 @@ export default {
   width:32%;
   border-radius:0;
   margin-left:-2px;
+  margin-top: -1px;
   position:relative;
   z-index:99;
-  padding: 10px 0px;
+  border: 0px solid #dddddd;
   background: #22AC38;
 }
 .Agreement{

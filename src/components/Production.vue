@@ -1,5 +1,5 @@
 <template>
-<div id="production" style="background: rgba(242, 242, 242, 1);padding-bottom: 40px;">
+<div id="production" style="background: rgba(242, 242, 242, 1);padding-bottom: 40px;padding-top: 40px;">
   <section id="blog"  style="padding-bottom: 0;">
     <div class="container" style="width: 95%;">
       <div class="row" style="padding-top: 15px;">
@@ -88,7 +88,6 @@ export default {
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style>
 .InnerWrap{
   overflow:hidden;

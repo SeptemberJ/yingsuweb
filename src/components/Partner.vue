@@ -1,5 +1,5 @@
 <template>
-<div id="partner" style="padding-top: 15px;">
+<div id="partner" style="padding-top: 40px;">
   <section id="testimonial">
     <div class="testimonial_overlay">
       <div class="container" style="width:100%;">
@@ -7,7 +7,6 @@
           <h2><span class="ColumTit">战略合作客户</span></h2>
           <p>资源共享，合作共赢，成就未来</p>
         </div>
-        <!--End of row-->
         <section id="carousel">
           <div class="">
             <div class="row">
@@ -70,16 +69,12 @@
                         </div>
                       </div>
                     </div>
-                    <!--ENd of item-->
                   </div>
                 </div>
               </div>
             </div>
-            <!--End of row-->
           </div>
-          <!--End of container-->
         </section>
-        <!--End of carousel-->
       </div>
     </div>
   </section>
@@ -116,13 +111,11 @@ export default {
   name: 'Partner',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
     }
   }
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 /* .row {
     display: -webkit-box;

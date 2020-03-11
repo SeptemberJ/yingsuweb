@@ -94,18 +94,18 @@ html {
     height: 100%
 }
 .OptionBlock .el-checkbox__label{
-  font-size: 12px !important;
+  /* font-size: 12px !important; */
   padding-left: 5px !important;
 }
 .LoginBox .el-dialog__header{
   text-align: center;
 }
 .LoginBox .el-dialog__body{
-  padding: 30px 30px 10px 30px !important;
+  /* padding: 30px 30px 10px 30px !important; */
 }
 .LoginBox .el-input__inner{
-  height: 35px !important;
-  line-height: 35px !important;
+  /* height: 35px !important;
+  line-height: 35px !important; */
   border-radius: 0px !important;
 }
 /* Sign */
@@ -116,14 +116,15 @@ html {
   padding: 30px 30px 10px 30px !important;
 }
 .SignBox .el-input__inner{
-  height: 35px !important;
+  /* height: 35px !important;
   line-height: 35px !important;
-  border-radius: 0px !important;
+  border-radius: 0px !important; */
 }
 .Agreement .el-checkbox__label{
-  font-size: 12px !important;
+  /* font-size: 12px !important; */
   padding-left: 5px !important;
 }
+
 .ColumTit{
   display: inline-block;
 }
@@ -149,6 +150,18 @@ html {
 .navbar-brand>img{
   display: inline-block !important;
   width: 75px;
+}
+.swiper-pagination-bullet{
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 0 !important;
+  border: 1px solid #EFEFEF;
+}
+.swiper-pagination-bullet-active{
+  border: 0px solid #EFEFEF;
+}
+.swiper-pagination-bullet{
+  opacity: .8 !important;
 }
 /*Input focus color removed*/
 
@@ -385,7 +398,7 @@ html {
 }
 .carousel-caption{
   width: 100%;
-  height: 45px;
+  height: 40px;
   /* height: 30px; */
   right: 0 !important;
   left: 0 !important;
@@ -399,8 +412,8 @@ html {
   width: 90%;
   margin: 0 auto;
   padding: 2px 15px;
-  height: 45px;
-  line-height: 45px;
+  height: 40px;
+  line-height: 40px;
   /* height: 30px;
   line-height: 30px; */
   font-size: 14px;

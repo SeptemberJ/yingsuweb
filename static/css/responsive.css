@@ -10,6 +10,97 @@
     font-size: 20px;
     letter-spacing:2px;
   }
+  .testimonial_content p{
+    font-size: 16px;
+    color: khaki;
+  }
+  .LoginBox .el-dialog{
+    min-width: 300px !important;
+  }
+  .SignBox .el-dialog{
+    min-width: 300px !important;
+  }
+  .LoginBox .el-dialog__body{
+    padding: 40px 50px 30px 50px !important;
+  }
+  .LeftInfo .el-input{
+    margin-bottom:10px;
+  }
+  .LoginBox .el-input__inner{
+    height: 45px;
+    line-height: 45px;
+    font-size: 16px;
+  }
+  .LoginBox .InfoBlock{
+    margin-bottom: 20px;
+  }
+  .LoginBox .OptionBlock{
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .OptionBlock .el-checkbox__label{
+    font-size: 16px;
+  }
+  .LoginBox .OptionBlock span{
+    font-size: 16px;
+  }
+  .ToSign{
+    font-size: 16px;
+  }
+  .LoginBox .ToSign{
+    margin-top: 20px;
+  }
+  .LoginBox .LeftInfo{
+    width: calc(100% - 100px);
+    height: 100%;
+    float: left;
+  }
+  .LoginBox .RightCode{
+    width: 100px;
+    height: 100%;
+    float: right;
+  }
+  .LoginBox .RightCode img{
+    width: 80px;
+    height: 80px;
+    margin: 10px 10px;
+  }
+  .SignBox .TabBlock span{
+    font-size: 14px;
+  }
+  .SignBox .el-dialog__body{
+    padding: 40px 40px 30px 40px !important;
+  }
+  .SignBox .el-input__inner{
+    height: 45px;
+    line-height: 45px;
+    font-size: 16px;
+  }
+  .SignBox .CodeBlock {
+    padding: 15px 0px;
+  }
+  .SignBox .Agreement{
+    margin-top: 20px;
+  }
+}
+@media (max-width: 1707px) {
+  .LoginBox .InfoBlock{
+    margin-bottom: 15px;
+  }
+  .LoginBox .OptionBlock{
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+  .SignBox .el-input__inner{
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+  }
+  .LoginBox .RightCode img{
+    width: 80px;
+    height: 80px;
+    margin: 10px 10px;
+  }
 }
 @media (max-width: 1680px) {
   .ContentTxt .slider_text h2{
@@ -17,6 +108,90 @@
   }
   .ContentTxt .slider_text p{
     font-size: 18px;
+  }
+  .testimonial_content p{
+    font-size: 14px;
+  }
+  .LoginBox .el-input__inner{
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+  }
+  .LoginBox .el-dialog__body{
+    padding: 40px 40px 30px 40px !important;
+  }
+  .OptionBlock .el-checkbox__label{
+    font-size: 14px;
+  }
+  .LoginBox .OptionBlock span{
+    font-size: 14px;
+  }
+  .LoginBox .RightCode img{
+    width: 70px;
+    height: 70px;
+    margin: 10px 15px;
+  }
+  .ToSign{
+    font-size: 14px;
+  }
+  .SignBox .el-input__inner{
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+  }
+  .SignBox .CodeBlock {
+    padding: 12px 0px;
+  }
+}
+@media (max-width: 1423px) {
+  .LoginBox .el-dialog__body{
+    padding: 30px 30px !important;
+  }
+  .LoginBox .el-input__inner{
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+  }
+  .OptionBlock .el-checkbox__label{
+    font-size: 12px;
+  }
+  .LoginBox .OptionBlock span{
+    font-size: 12px;
+  }
+  .ToSign{
+    font-size: 12px;
+  }
+  .LoginBox .InfoBlock{
+    margin-bottom: 10px;
+  }
+  .LoginBox .OptionBlock{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .SignBox .el-input__inner{
+    height: 35px;
+    line-height: 35px;
+    font-size: 12px;
+  }
+  .SignBox .TabBlock span{
+    font-size: 12px;
+  }
+  .SignBox .CodeBlock {
+    font-size: 12px;
+    padding: 12px 0px;
+  }
+  .SignBox .el-checkbox__label{
+    font-size: 12px;
+  }
+  .SignBox .el-input__inner{
+    height: 35px;
+    line-height: 35px;
+    font-size: 12px;
+  }
+  .LoginBox .RightCode img{
+    width: 65px;
+    height: 65px;
+    margin: 10px 17px;
   }
 }
 @media (max-width: 1366px) {
@@ -26,8 +201,49 @@
   .ContentTxt .slider_text p{
     font-size: 16px;
   }
+  .testimonial_content p{
+    font-size: 12px;
+    color: palegreen;
+  }
+  .LoginBox .el-input__inner{
+    height: 35px;
+    line-height: 35px;
+    font-size: 12px;
+  }
+  .LoginBox .RightCode img{
+    width: 55px;
+    height: 55px;
+    margin: 9px 22px;
+  }
+  .LoginBox .InfoBlock{
+    margin-bottom: 10px;
+  }
+  .LoginBox .OptionBlock{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .OptionBlock .el-checkbox__label{
+    font-size: 12px;
+  }
+  .LoginBox .OptionBlock span{
+    font-size: 12px;
+  }
+  .SignBox .el-dialog__body{
+    padding: 30px 30px 30px 30px !important;
+  }
+  .fix-tips{
+    padding-left: 20px;
+  }
+  .LoginBox .RightCode img{
+    width: 70px;
+    height: 70px;
+    margin: 10px 15px;
+  }
 }
 @media (max-width: 991px) {
+    .LoginBox .el-dialog__body{
+      padding: 30px 20px !important;
+    }
     #blog {
       /* min-height: 500px; */
       padding: 40px 0 80px 0;
@@ -97,6 +313,9 @@
 }
 /* CHANGING BREAKPOINT OF BOOTSTRAP 3 NAVIGATION BAR*/
 @media (max-width: 999px) {
+    .LoginBox .el-dialog__body{
+      padding: 30px 20px !important;
+    }
     .navbar-header {
         float: none;
     }
@@ -159,6 +378,27 @@
     }
 }
 @media all and (max-width: 960px) and (min-width: 640px) {
+    .LoginBox .el-input__inner{
+      height: 35px;
+      line-height: 35px;
+      font-size: 14px;
+    }
+    .OptionBlock .el-checkbox__label{
+      font-size: 12px;
+    }
+    .LoginBox .OptionBlock span{
+      font-size: 12px;
+    }
+    .ToSign{
+      font-size: 12px;
+    }
+    .LoginBox .InfoBlock{
+      margin-bottom: 10px;
+    }
+    .LoginBox .OptionBlock{
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
     #header .top_header .address {
         margin-right:-10px;
         margin-left:-10px;
@@ -557,6 +797,9 @@
     }
 }
 @media all and (max-width: 767px) {
+    .LoginBox .el-dialog__body{
+      padding: 20px 30px !important;
+    }
     .ZT{
       transform: translateY(56%);
       font-size: 22px;
@@ -968,10 +1211,28 @@
         bottom: 5px;
         right: 5px;
     }
+    .fix-tips{
+      padding-left: 30px;
+    }
 }
 @media all and (max-width: 640px){
+    .LoginBox .el-dialog__body{
+      padding: 20px 15px !important;
+    }
+    .LoginBox .InfoBlock{
+      margin-bottom: 10px;
+    }
+    .LoginBox .OptionBlock{
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
     .swiper-button-prev, .swiper-button-next{
       display: block;
+    }
+    .LoginBox .RightCode img{
+      width: 70px;
+      height: 70px;
+      margin: 5px 15px;
     }
     /* .carousel-caption{
       height: 250px;
@@ -1434,6 +1695,13 @@
     }
 }
 @media all and (max-width: 320px) {
+    .LoginBox .InfoBlock{
+      margin-bottom: 5px;
+    }
+    .LoginBox .OptionBlock{
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
     #header .top_header .address {
         margin-right: -10px;
         margin-left: -10px;

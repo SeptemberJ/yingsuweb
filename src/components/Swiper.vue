@@ -1,6 +1,6 @@
 <template>
-<section id="Carousel" class="CarouselBlock">
-  <swiper :options="swiperOption">
+<section id="Carousel" class="CarouselBlock" @mouseenter="on_top_enter" @mouseleave="on_top_leave">
+  <swiper :options="swiperOption" ref="mySwiper">
     <swiper-slide class="swiper-slide" v-for="(item,index) in carouselArr" :key="index">
       <img :src="item.img"/>
       <div class="ContentTxt">
@@ -40,7 +40,7 @@ export default {
         },
         autoplayDisableOnInteraction: false,
         paginationClickable: true,
-        autoplay: false,
+        autoplay: true,
         // autoplay: {
         //   delay: 4000,
         //   disableOnInteraction: false
@@ -54,6 +54,11 @@ export default {
     'screenWidth': (val) => {
     }
   },
+  computed: {
+    mySwiper () {
+      return this.$refs.mySwiper.swiper
+    }
+  },
   mounted () {
     window.onresize = this.changeBanner
   },
@@ -61,6 +66,12 @@ export default {
     this.changeBanner()
   },
   methods: {
+    on_top_enter () {
+      this.mySwiper.autoplay.stop()
+    },
+    on_top_leave () {
+      this.mySwiper.autoplay.start()
+    },
     changeBanner () {
       let clientWidth = document.documentElement.clientWidth
       this.screenWidth = clientWidth

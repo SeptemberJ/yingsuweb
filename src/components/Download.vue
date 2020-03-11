@@ -1,5 +1,5 @@
 <template>
-<div id="download">
+<div id="download" style="padding-top: 40px;">
   <section id="blog" style="padding-bottom: 0;">
     <div class="container">
       <div class="row" style="padding-top: 15px;">
@@ -18,7 +18,7 @@
                 <div class="blog_news">
                   <div class="single_blog_item">
                     <div class="blog_img">
-                      <img src="../../static/img/qrcode1.png" alt="">
+                      <img src="../../static/img/qrcode_hz.png" alt="">
                     </div>
                     <div class="blog_content">
                       <div class="expert">
@@ -37,7 +37,7 @@
                 <div class="blog_news">
                   <div class="single_blog_item">
                     <div class="blog_img">
-                      <img src="../../static/img/qrcode2.png" alt="">
+                      <img src="../../static/img/qrcode_sj.png" alt="">
                     </div>
                     <div class="blog_content">
                       <div class="expert">

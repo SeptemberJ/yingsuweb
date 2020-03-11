@@ -8,12 +8,12 @@
     <Partner/>
     <Download/>
     <AboutUs/>
-    <div class="SideCodeBlcok">
+    <!-- <div class="SideCodeBlcok">
       <img src="../../static/img/qrcode1.png" />
       <p>APP下载</p>
       <img src="../../static/img/gray.png" />
       <p>小程序</p>
-    </div>
+    </div> -->
   </div>
 </template>
 

@@ -3,7 +3,7 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-// css
+// mycss
 import '../static/css/carousel.css'
 import '../static/css/style.css'
 import '../static/css/responsive.css'
