@@ -5,8 +5,8 @@
       <img :src="item.img"/>
       <div class="ContentTxt">
         <div class="slider_text">
-          <h2>正标题内容</h2>
-          <p>副标题副标题副标题副标题</p>
+          <h2>中运卡行 助您畅行天下</h2>
+          <p>便捷、高效、安全的网络货运平台</p>
           <a class="custom_btn">查看更多</a>
         </div>
       </div>

@@ -16,12 +16,12 @@
             <img src="../../static/img/production1.jpg" />
             <div class="OverText">
               <div class="LeftBlock">
-                <span class="TopCont">内容简介内容简介内容简介内容简介内容简介内容简介</span>
+                <span class="TopCont">箱式、飞翼、平板各式车型，智能化配送路径规划，配送容量的自动化管理，覆盖全国的服务范围，随时随地调度运力</span>
                 <span class="SeeMore">查看更多</span>
               </div>
               <div class="RightBlock">
                 <span class="TitLine"></span>
-                <p>文章标题文章标题</p>
+                <p>普货运输</p>
               </div>
             </div>
           </div>
@@ -31,12 +31,12 @@
             <img src="../../static/img/production2.jpg" />
             <div class="OverText">
               <div class="LeftBlock">
-                <span class="TopCont">内容简介内容简介内容简介内容简介内容简介内容简介</span>
+                <span class="TopCont">专业的危险品操作团队，全流程的车队安全管理，在途实时风险预警，亿元的保险优质保障，有效提高危险品运输的安全性和效率，保证人身和财产的安全</span>
                 <span class="SeeMore">查看更多</span>
               </div>
               <div class="RightBlock">
                 <span class="TitLine"></span>
-                <p>文章标题文章标题</p>
+                <p>危险品运输</p>
               </div>
             </div>
           </div>
@@ -46,12 +46,12 @@
             <img src="../../static/img/production3.jpg" />
             <div class="OverText">
               <div class="LeftBlock">
-                <span class="TopCont">内容简介内容简介内容简介内容简介内容简介内容简介</span>
+                <span class="TopCont">全程运输温湿度监控、温湿度，提供一站式冷链物流解决方案,打造冷链运输第一品牌</span>
                 <span class="SeeMore">查看更多</span>
               </div>
               <div class="RightBlock">
                 <span class="TitLine"></span>
-                <p>文章标题文章标题</p>
+                <p>冷链运输</p>
               </div>
             </div>
           </div>
@@ -61,12 +61,12 @@
             <img src="../../static/img/production4.jpg" />
             <div class="OverText">
               <div class="LeftBlock">
-                <span class="TopCont">内容简介内容简介内容简介内容简介内容简介内容简介</span>
+                <span class="TopCont">车货箱匹配，甩挂降本增效</span>
                 <span class="SeeMore">查看更多</span>
               </div>
               <div class="RightBlock">
                 <span class="TitLine"></span>
-                <p>文章标题文章标题</p>
+                <p>集装箱运输</p>
               </div>
             </div>
           </div>
