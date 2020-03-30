@@ -125,7 +125,7 @@ export default {
   background:rgba(39, 39, 39, 0.5);
   float:left;
   color:#fff;
-  padding:20px 40px;
+  padding:20px 20px;
 }
 .RightBlock{
   width:50%;

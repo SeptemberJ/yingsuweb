@@ -24,6 +24,7 @@
 </template>
 
 <script>
+import 'swiper/css/swiper.css'
 export default {
   data () {
     return {
@@ -88,23 +89,9 @@ export default {
           {img: '../../../static/img/partnerBg.jpg', news: '春节假期平台放假通知'}
         ]
       }
-      // else if (clientWidth > 768 && clientWidth <= 1024) {
-      //   this.carouselArr = [
-      //     {img: '../../../static/img/banner_2_1024.jpg', news: '[2020-01-20]关于2020年春节假期平台放假通知'}
-      //   ]
-      // }
     }
   }
 }
 </script>
 <style scoped>
-.CarouselBlock{
-  /* width: 100%;
-  overflow: hidden;
-  position: absolute;
-  top: 0; */
-}
-.swiper-container{
-  /* max-height: 500px; */
-}
 </style>

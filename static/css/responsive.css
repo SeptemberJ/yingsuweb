@@ -1,6 +1,20 @@
 /*Medium Screen*/
+@media (max-width: 4097px) {
+  #event .event_text p{
+    line-height: 45px;
+  }
+}
+.container{
+  width: 80%;
+}
+.ContentTxt .slider_text a.custom_btn{
+  width: 120px;
+}
 
 @media (max-width: 1920px) {
+  #event .event_text p{
+    line-height: 28px;
+  }
   .ContentTxt .slider_text h2{
     font-size: 52px;
     padding: 10px 0;
@@ -238,6 +252,9 @@
     width: 70px;
     height: 70px;
     margin: 10px 15px;
+  }
+  .TopCont{
+    font-size: 12px;
   }
 }
 @media (max-width: 991px) {
@@ -1037,7 +1054,7 @@
     }
     #event .event_text p {
         font-size: 10px;
-        padding-bottom: 25px;
+        padding-bottom: 5px;
     }
     #event a.event_btn {
         font-size: 10px;

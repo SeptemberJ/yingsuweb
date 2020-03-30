@@ -89,11 +89,11 @@
     </el-dialog>
   </section>
 </template>
-<script src="../../static/js/jquery-1.12.3.min.js"></script>
+
 <script>
-$(function(){
+import $ from 'jquery'
+$(function () {
   $('.nav > li > a').click(function () {
-    // alert('hhh')
     $('#collapse').addClass('collapsed')
     $('#collapse').attr('aria-expanded', false)
     $('#bs-example-navbar-collapse-1').removeClass('in')
@@ -102,7 +102,7 @@ $(function(){
   $('#topLi').click(function () {
     $('#topLi').className = ''
     $('#topLi').className = 'active'
-    $('html, body').animate({scrollTop:"0px"}, 500)
+    $('html, body').animate({scrollTop: '0px'}, 500)
   })
 })
 export default {
@@ -125,13 +125,13 @@ export default {
     this.Wid = window.innerWidth
   },
   watch: {
-    Wid() {
+    Wid () {
       this.resize()
     }
   },
   mounted () {
-    window.onresize = ()=>{
-      return(()=>{
+    window.onresize = () => {
+      return (() => {
         this.Wid = window.innerWidth
       })()
     }
@@ -140,8 +140,7 @@ export default {
     resize () {
       setTimeout(() => {
         let PadWid = $('.SignBox .el-dialog__body').width()
-        let SignBoxWidth = $('.SignBox .el-dialog__body').width()
-        console.log(PadWid)
+        // let SignBoxWidth = $('.SignBox .el-dialog__body').width()
         var SlideVerifyPlug = window.slideVerifyPlug
         var slideVerify2 = new SlideVerifyPlug('#verify-wrap', {
           wrapWidth: PadWid - 0,

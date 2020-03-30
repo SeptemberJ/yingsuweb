@@ -19,7 +19,6 @@
 
 <script>
 import NavBar from '../components/NavBar.vue'
-import Carousel from '../components/Carousel.vue'
 import Swiper from '../components/Swiper.vue'
 import FourBlock from '../components/FourBlock.vue'
 import Production from '../components/Production.vue'
@@ -31,7 +30,6 @@ export default {
   name: 'Index',
   components: {
     NavBar,
-    Carousel,
     Swiper,
     FourBlock,
     Production,

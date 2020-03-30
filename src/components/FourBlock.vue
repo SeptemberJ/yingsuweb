@@ -2,7 +2,7 @@
 <section id="welcome">
     <div class="container">
       <div class="row">
-        <div class="col-md-3 col-sm-6 col-xs-6">
+        <div class="col-md-3 col-sm-6 col-xs-12">
           <div class="item">
             <div class="single_item">
               <div class="item_list">
@@ -22,7 +22,7 @@
           </div>
         </div>
         <!--End of col-md-3-->
-        <div class="col-md-3 col-sm-6 col-xs-6">
+        <div class="col-md-3 col-sm-6 col-xs-12">
           <div class="item">
             <div class="single_item">
               <div class="item_list">
@@ -42,7 +42,7 @@
           </div>
         </div>
         <!--End of col-md-3-->
-        <div class="col-md-3 col-sm-6 col-xs-6">
+        <div class="col-md-3 col-sm-6 col-xs-12">
           <div class="item">
             <div class="single_item">
               <div class="item_list">
@@ -62,7 +62,7 @@
           </div>
         </div>
         <!--End of col-md-3-->
-        <div class="col-md-3 col-sm-6 col-xs-6">
+        <div class="col-md-3 col-sm-6 col-xs-12">
           <div class="item">
             <div class="single_item">
               <div class="item_list">
